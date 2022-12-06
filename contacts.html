@@ -6,7 +6,7 @@
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <title>
-About me | Alex Kotovsky
+Contacts | Alex Kotovsky
     </title>
 </head>
 
@@ -20,7 +20,7 @@ About me | Alex Kotovsky
 
                                 <!-- HEADER -->
 <!-- -------------------------------------------------------------------- -->
-        <div class="header"
+       <div class="header"
              style="display: flex;
                     flex-direction: row;">
 
@@ -108,7 +108,7 @@ Contacts
     }
 
     /* EFFECTS */
-    .a__nav:nth-child(1) {
+    .a__nav:hover:nth-child(1) {
         border-bottom: 2px solid #00BFFF;
     }
     .a__nav:hover:nth-child(2) {
@@ -120,7 +120,7 @@ Contacts
     .a__nav:hover:nth-child(4) {
         border-bottom: 2px solid #66CDAA;
     }
-    .a__nav:hover:nth-child(5) {
+    .a__nav:nth-child(5) {
         border-bottom: 2px solid #9932CC;
     }
 
@@ -150,7 +150,7 @@ Contacts
     }
 
 </style>
-<!-- -------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
 
                                 <!-- MAIN -->
 <!-- -------------------------------------------------------------------- -->
@@ -160,61 +160,38 @@ Contacts
 
             <div class="main__title">
                 <span class="main__title__text">
-Hi, I'm Alex!
+Get in touch!
                 </span>
             </div>
 
-            <div class="about__block"
+
+            <div class="in_contacts_text">
+Feel free to send me a message or follow me.
+            </div>
+
+            <div class="contacts__list"
                  style="display: flex;
-                        flex-wrap: wrap;">
+                        flex-direction: column;">
 
-                <div class="about__text">
+                <span>
+Email: <a href="">alexktvsky</a> at <a href="">gmail.com</a>
+                </span>
 
-                    <p class="about__text__margin">
-I'm a software engineer, researcher and aspiring entrepreneur. Welcome to my spot on the web for my projects, notes, and anything else I want to show the world.
-                    </p>
+                <span>
+GitHub: <a href="https://github.com/alexktvsky">@alexktvsky</a>
+                </span>
 
-                    <p class="about__text__margin">
-Check out the <a href="projects.html" class="a__about">projects</a> page to see a highlight of my open-source work, <a href="reading.html" class="a__about">reading</a> for summaries and reviews from books I've read and the notes for my evergeen <a href="notes.html" class="a__about">notes</a> and more.
-                    </p>
+                <span>
+LinkedIn: <a href="https://www.linkedin.com/in/alexktvsky/">@alexktvsky</a>
+                </span>
 
-<!-- If you need to edit the text:
+                <span>
+Twitter: <a href="https://twitter.com/alexktvsky">@alexktvsky</a>
+                </span>
 
-<a href="projects.html" class="a__about">projects</a>
-<a href="reading.html" class="a__about">reading</a>
-<a href="notes.html" class="a__about">notes</a>
-
--->
-
-                    <p class="about__text__margin">
-My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world.
-                    </p>
-
-<!-- NEXT -->
-
-                </div>
-
-                <!-- PHOTO ON MAIN PAGE -->
-                <div class="about__photo"
-                 style="display: flex;
-                        margin-left: auto;
-                        margin-right: auto;">
-
-                <img src="img/me.jpg"
-                     class="photo__one"
-                     alt="myPhoto"
-                     id="myImg"
-                     style="margin-left: auto;
-                            margin-right: auto;">
-                </div>
-
-                <div id="myModal" class="modal">
-                    <span class="close"
-                          onclick="document.getElementById('myModal').style.display='none'">
-                              &times;
-                          </span>
-                          <img class="modal-content" id="img_01">
-                </div>
+                <span>
+Mastodon: <a href="https://mastodon.social/@alexktvsky">@alexktvsky@mastodon.social </a>
+                </span>
 
             </div>
         </div>
@@ -227,93 +204,40 @@ My site has no ads, no affiliate links, no tracking or analytics, no sponsored p
         font-size: 40px;
         font-weight: bold;
     }
-    .about__text {
+    .in_contacts_text {
+        font-size: 18px;
+    }
+    .contacts__list {
         font-size: 18px;
         line-height: 1.6;
     }
-    .title {
-        font-size: 26px;
-        font-weight: bold;
-    }
-    .updated {
-        font-size: 16px;
-        font-style: italic;
-    }
 
     /* COLORS */
-    .a__about:hover {
-        background: #B0C4DE;
-    }
-    .about__photo {
-        background-color: white;
-    }
-    ul li::before {
-        color: blue;
-    }
 
     /* EFFECTS */
-    .a__about {
-        border-bottom: 2px solid blue;
-    }
-    ul li::before {
-        content: "\2022";   /*Dot for li*/
-    }
-    .about__photo {         /* photo frame */
-        border: 3px solod black;
-        border-radius: 5px;
-    }
-    @media (max-width: 940px) {
-        /* Keeping the header in place while scrolling the page. */
-        /* .header {
-            position: sticky;
-            top: 0;
-        } */
-    }
 
     /* MARGIN AND PADDING */
     .main__title {
         margin-top: 40px;
     }
-    .about__text {
+    .in_contacts_text {
         margin-top: 30px;
         margin-right: 30px;
-    }
-    .about__text__margin {
         margin-bottom: 20px;
     }
-    li {
-        margin-left: 10px;
-    }
-    .list__style {
-        margin-left: 20px;
-        text-indent: -10px;
-    }
-    .about__photo {
-        margin-top: 20px;
-    }
-    .photo__one {
-        margin-top: 40px;
-    }
     @media (max-width: 940px) {
-        .main__title {
-            margin-left: 10px;
-        }
-        .about__text {
-            margin-top: 30px;
-            margin-right: 10px;
+        .main {
             margin-left: 10px;
         }
     }
 
 </style>
-<!-- -------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
 
                                 <!-- FOOTER -->
 <!-- -------------------------------------------------------------------- -->
         <div class="footer" style="height: 50px;"></div>
 <!-- -------------------------------------------------------------------- -->
     </div>
-
-    <script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>

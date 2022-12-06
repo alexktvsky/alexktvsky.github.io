@@ -6,7 +6,7 @@
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <title>
-About me | Alex Kotovsky
+Projects | Alex Kotovsky
     </title>
 </head>
 
@@ -108,10 +108,10 @@ Contacts
     }
 
     /* EFFECTS */
-    .a__nav:nth-child(1) {
+    .a__nav:hover:nth-child(1) {
         border-bottom: 2px solid #00BFFF;
     }
-    .a__nav:hover:nth-child(2) {
+    .a__nav:nth-child(2) {
         border-bottom: 2px solid #FF00FF;
     }
     .a__nav:hover:nth-child(3) {
@@ -150,7 +150,7 @@ Contacts
     }
 
 </style>
-<!-- -------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
 
                                 <!-- MAIN -->
 <!-- -------------------------------------------------------------------- -->
@@ -160,66 +160,14 @@ Contacts
 
             <div class="main__title">
                 <span class="main__title__text">
-Hi, I'm Alex!
+Open source projects
                 </span>
             </div>
-
-            <div class="about__block"
-                 style="display: flex;
-                        flex-wrap: wrap;">
-
-                <div class="about__text">
-
-                    <p class="about__text__margin">
-I'm a software engineer, researcher and aspiring entrepreneur. Welcome to my spot on the web for my projects, notes, and anything else I want to show the world.
-                    </p>
-
-                    <p class="about__text__margin">
-Check out the <a href="projects.html" class="a__about">projects</a> page to see a highlight of my open-source work, <a href="reading.html" class="a__about">reading</a> for summaries and reviews from books I've read and the notes for my evergeen <a href="notes.html" class="a__about">notes</a> and more.
-                    </p>
-
-<!-- If you need to edit the text:
-
-<a href="projects.html" class="a__about">projects</a>
-<a href="reading.html" class="a__about">reading</a>
-<a href="notes.html" class="a__about">notes</a>
-
--->
-
-                    <p class="about__text__margin">
-My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world.
-                    </p>
-
-<!-- NEXT -->
-
-                </div>
-
-                <!-- PHOTO ON MAIN PAGE -->
-                <div class="about__photo"
-                 style="display: flex;
-                        margin-left: auto;
-                        margin-right: auto;">
-
-                <img src="img/me.jpg"
-                     class="photo__one"
-                     alt="myPhoto"
-                     id="myImg"
-                     style="margin-left: auto;
-                            margin-right: auto;">
-                </div>
-
-                <div id="myModal" class="modal">
-                    <span class="close"
-                          onclick="document.getElementById('myModal').style.display='none'">
-                              &times;
-                          </span>
-                          <img class="modal-content" id="img_01">
-                </div>
-
-            </div>
+${projects}
         </div>
 
-<!-- STYLES FOR MAIN -->
+
+<!-- STYLES FOR PROJECT PAGE -> MAIN -->
 <style type="text/css">
 
     /* FONTS*/
@@ -227,84 +175,65 @@ My site has no ads, no affiliate links, no tracking or analytics, no sponsored p
         font-size: 40px;
         font-weight: bold;
     }
-    .about__text {
-        font-size: 18px;
+    .progect__name {
+        font-size: 20px;
+    }
+    .description__text {
         line-height: 1.6;
-    }
-    .title {
-        font-size: 26px;
-        font-weight: bold;
-    }
-    .updated {
-        font-size: 16px;
-        font-style: italic;
     }
 
     /* COLORS */
-    .a__about:hover {
-        background: #B0C4DE;
+    .button {
+        color: black;
     }
-    .about__photo {
+    .project__card {
         background-color: white;
     }
-    ul li::before {
-        color: blue;
+    .button__template {
+        background-color: #eee;
+    }
+    .progect__name {
+        color: #252525;
+    }
+    .description__text {
+        color: #666;
     }
 
     /* EFFECTS */
-    .a__about {
-        border-bottom: 2px solid blue;
+    .project__card {
+        border: 2px solid #ddd;
+        border-radius: 10px;
     }
-    ul li::before {
-        content: "\2022";   /*Dot for li*/
-    }
-    .about__photo {         /* photo frame */
-        border: 3px solod black;
+    .button__template {
+        border: 1px solid #ddd;
         border-radius: 5px;
-    }
-    @media (max-width: 940px) {
-        /* Keeping the header in place while scrolling the page. */
-        /* .header {
-            position: sticky;
-            top: 0;
-        } */
     }
 
     /* MARGIN AND PADDING */
     .main__title {
         margin-top: 40px;
     }
-    .about__text {
-        margin-top: 30px;
-        margin-right: 30px;
-    }
-    .about__text__margin {
-        margin-bottom: 20px;
-    }
-    li {
-        margin-left: 10px;
-    }
-    .list__style {
-        margin-left: 20px;
-        text-indent: -10px;
-    }
-    .about__photo {
+    .project__card {
         margin-top: 20px;
     }
-    .photo__one {
-        margin-top: 40px;
+    .button {
+        padding: 3px;
+    }
+    .link__icon {
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+    .button__template {
+        padding-left: 5px;
+        padding-right: 5px;
+
+        margin-right: 10px;
     }
     @media (max-width: 940px) {
         .main__title {
             margin-left: 10px;
         }
-        .about__text {
-            margin-top: 30px;
-            margin-right: 10px;
-            margin-left: 10px;
-        }
     }
-
 </style>
 <!-- -------------------------------------------------------------------- -->
 
@@ -313,7 +242,5 @@ My site has no ads, no affiliate links, no tracking or analytics, no sponsored p
         <div class="footer" style="height: 50px;"></div>
 <!-- -------------------------------------------------------------------- -->
     </div>
-
-    <script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>
