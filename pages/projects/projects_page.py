@@ -1,5 +1,4 @@
 import json
-from typing import List
 from pathlib import Path
 from mako.template import Template
 
@@ -8,7 +7,7 @@ class ProjectsPage:
 
     ROOT_PATH = Path('pages/projects')
 
-    def render(self, file: str) -> None:
+    def render(self, file):
 
         projects = json.loads(
             ProjectsPage._read_text_file(
@@ -43,12 +42,11 @@ class ProjectsPage:
 
             print('[ProjectPage]: {}'.format(project['name']))
 
-
         projects_html = projects_template.render(projects=''.join(result_list))
 
         ProjectsPage._write_text_to_file(file, projects_html)
 
-    def _render_buttons_for_project(self, buttons: List[str]) -> str:
+    def _render_buttons_for_project(self, buttons):
 
         button_template = Template(
             ProjectsPage._read_text_file(
@@ -70,11 +68,11 @@ class ProjectsPage:
         return ''.join(result_list)
 
     @staticmethod
-    def _read_text_file(filename: str) -> str:
+    def _read_text_file(filename):
         with open(filename, 'r') as file:
             return file.read()
 
     @staticmethod
-    def _write_text_to_file(filename: str, text: str) -> None:
+    def _write_text_to_file(filename, text):
         with open(filename, 'w') as file:
             file.write(text)
