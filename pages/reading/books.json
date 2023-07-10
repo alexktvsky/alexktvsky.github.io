@@ -1,5 +1,14 @@
 [
     {
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "authors": " Gene Kim, Kevin Behr, George Spafford",
+        "isbn": "978-0988262591",
+        "date": "2023-07-10",
+        "rating": "9",
+        "review": "This book takes readers on a captivating journey as they follow the protagonist through a company's IT department in complete disarray, facing constant failures and bottlenecks. With its insightful blend of storytelling and practical lessons, this book offers valuable insights into the principles of DevOps and how to transform chaotic organizations into efficient, high-performing teams. I think this book is a good starting point for anyone seeking to understand the challenges and opportunities in modern IT management."
+    },
+
+    {
         "title": "The Design of Web APIs",
         "authors": "Arnaud Lauret",
         "isbn": "9781617295102",
