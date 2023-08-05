@@ -1,7 +1,16 @@
 [
     {
+        "title": "Just for Fun: The Story of an Accidental Revolutionary",
+        "authors": "Linus Torvalds, David Diamond",
+        "isbn": "978-0066620732",
+        "date": "2023-08-05",
+        "rating": "10",
+        "review": "This is an enthralling and inspiring memoir by Linus Torvalds, the creator of the Linux operating system. The book gives a fascinating look into Torvalds' journey from an unassuming student to a groundbreaking innovator in the world of open-source software. With humor and candid insights, Torvalds shares his experiences, challenges, and triumphs. A great read for tech enthusiasts and anyone curious about how open collaboration can change things."
+    },
+
+    {
         "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
-        "authors": " Gene Kim, Kevin Behr, George Spafford",
+        "authors": "Gene Kim, Kevin Behr, George Spafford",
         "isbn": "978-0988262591",
         "date": "2023-07-10",
         "rating": "9",
@@ -32,7 +41,7 @@
         "isbn": "978-1-5428-6650-7",
         "date": "2022-07-25",
         "rating": "10",
-        "review": ""
+        "review": "It is an insightful and practical guide to transforming the way we take and use notes for enhanced learning and productivity. Ahrens introduces the concept of the Zettelkasten method, emphasizing the importance of developing a knowledge network through interconnected notes. The book's practical tips and insightful explanations make it a must-read for anyone seeking to improve their note-taking habits and knowledge management."
     },
 
     {
@@ -41,7 +50,7 @@
         "isbn": "978-0-06-173519-6",
         "date": "2022-07-10",
         "rating": "10",
-        "review": ""
+        "review": "It is an inspiring book that offers valuable life advice for young adults. The author's wisdom and personal anecdotes provide a practical guide on navigating challenges, making decisions, and finding purpose."
     },
 
     {
@@ -50,7 +59,7 @@
         "isbn": "978-0-385-34645-0",
         "date": "2022-06-18",
         "rating": "10",
-        "review": ""
+        "review": "The book provides valuable insights into the principles and practices of Scrum, making it accessible to both beginners and experienced practitioners. With real-world examples and practical tips, Sutherland's writing style makes it a compelling and must-read resource for anyone seeking to enhance their agile project management skills."
     },
 
     {
