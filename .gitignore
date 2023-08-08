@@ -126,5 +126,3 @@ dmypy.json
 .pyre/
 
 .idea
-
-pages/reading/config/config.ini
