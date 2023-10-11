@@ -1,5 +1,14 @@
 [
     {
+        "title": " The Road to Financial Freedom",
+        "authors": "Bodo Schafer",
+        "isbn": "1441704132",
+        "date": "2023-10-11",
+        "rating": "9",
+        "review": "This is a powerful guide that not only imparts valuable financial wisdom but also emphasizes the importance of cultivating the right mindset for financial success. Schafer's practical advice and motivational insights make this book an essential read for those looking to take control of their financial future."
+    },
+
+    {
         "title": "Just for Fun: The Story of an Accidental Revolutionary",
         "authors": "Linus Torvalds, David Diamond",
         "isbn": "978-0066620732",
