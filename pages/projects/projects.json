@@ -94,5 +94,17 @@
                 "url": "https://github.com/alexktvsky/easypg"
             }
         ]
+    },
+
+    {
+        "name": "Early projects ",
+        "year": "2016",
+        "description": "All my early projects that I did in school until 2017",
+        "buttons": [
+            {
+                "name": "Article",
+                "url": "https://alexktvsky.com/early_projects.html"
+            }
+        ]
     }
 ]
