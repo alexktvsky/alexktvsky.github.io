@@ -1,6 +1,15 @@
 [
     {
-        "title": " The Road to Financial Freedom",
+        "title": "Technological Singularity",
+        "authors": "Vernor Vinge",
+        "isbn": "",
+        "date": "2023-10-22",
+        "rating": "10",
+        "review": "This article makes me think about an unprecedented technological acceleration, driven by artificial intelligence, could reshape our world in ways beyond our current comprehension. The article is a valuable resource for those interested in the intersection of technology and humanity's future."
+    },
+
+    {
+        "title": "The Road to Financial Freedom",
         "authors": "Bodo Schafer",
         "isbn": "1441704132",
         "date": "2023-10-11",
