@@ -1,5 +1,14 @@
 [
     {
+        "title": "The Rust Programming Language",
+        "authors": "Steve Klabnik and Carol Nichols",
+        "isbn": "978-1593278281",
+        "date": "2023-10-24",
+        "rating": "9",
+        "review": "This book is an excellent choice for anyone interested in Rust. This well-structured book guides readers through the language's unique features and provides practical insights, making it a comprehensive introduction to Rust."
+    },
+
+    {
         "title": "Technological Singularity",
         "authors": "Vernor Vinge",
         "isbn": "",
