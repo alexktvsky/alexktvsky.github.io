@@ -164,9 +164,82 @@ Contacts
 Open source projects
                 </span>
             </div>
-${projects}
-        </div>
 
+            % for project in projects:
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                ${project['name']}
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            ${project['year']}
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                ${project['description']}
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                            % for button in project['buttons']:
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="${button['url']}"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            ${button['name']}
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            % endfor
+                        </div>
+                    </div>
+                </div>
+            % endfor
+        </div>
 
 <!-- STYLES FOR PROJECT PAGE -> MAIN -->
 <style type="text/css">

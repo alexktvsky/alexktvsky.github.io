@@ -7,72 +7,53 @@ class ProjectsPage:
 
     ROOT_PATH = Path('pages/projects')
 
-    def render(self, file):
+    def render(self, page_path):
+        template_path = ProjectsPage.ROOT_PATH / 'projects.html.in'
+        template = Template(open(template_path).read())
+        projects = json.load(open(ProjectsPage.ROOT_PATH / 'projects.json'))
+        page = template.render(projects=projects)
+        open(page_path, 'w').write(page)
 
-        projects = json.loads(
-            ProjectsPage._read_text_file(
-                ProjectsPage.ROOT_PATH / 'projects.json'
-            )
-        )
 
-        project_template = Template(
-            ProjectsPage._read_text_file(
-                ProjectsPage.ROOT_PATH / 'project.html.in'
-            )
-        )
 
-        projects_template = Template(
-            ProjectsPage._read_text_file(
-                ProjectsPage.ROOT_PATH / 'projects.html.in'
-            )
-        )
 
-        result_list = []
+        # for project in projects:
 
-        for project in projects:
+        #     project_html = project_template.render(
+        #         name=project['name'],
+        #         year=project['year'],
+        #         description=project['description'],
+        #         buttons=self._render_buttons_for_project(project['buttons'])
+        #     )
 
-            project_html = project_template.render(
-                name=project['name'],
-                year=project['year'],
-                description=project['description'],
-                buttons=self._render_buttons_for_project(project['buttons'])
-            )
+        #     result_list.append(project_html)
 
-            result_list.append(project_html)
+        #     print('[ProjectPage]: {}'.format(project['name']))
 
-            print('[ProjectPage]: {}'.format(project['name']))
+        # projects_html = projects_template.render(projects=''.join(result_list))
 
-        projects_html = projects_template.render(projects=''.join(result_list))
+        # ProjectsPage._write_text_to_file(page_path, projects_html)
 
-        ProjectsPage._write_text_to_file(file, projects_html)
 
-    def _render_buttons_for_project(self, buttons):
 
-        button_template = Template(
-            ProjectsPage._read_text_file(
-                ProjectsPage.ROOT_PATH / 'button.html.in'
-            )
-        )
+    # def _render_buttons_for_project(self, buttons):
 
-        result_list = []
+    #     button_template = Template(
+    #         ProjectsPage._read_text_file(
+    #             ProjectsPage.ROOT_PATH / 'button.html.in'
+    #         )
+    #     )
 
-        # result_list.sort(key=lambda x: x['year'], reverse=True)
+    #     result_list = []
 
-        for button in buttons:
-            button_html = button_template.render(
-                name=button['name'],
-                url=button['url']
-            )
-            result_list.append(button_html)
+    #     # result_list.sort(key=lambda x: x['year'], reverse=True)
 
-        return ''.join(result_list)
+    #     for button in buttons:
+    #         button_html = button_template.render(
+    #             name=button['name'],
+    #             url=button['url']
+    #         )
+    #         result_list.append(button_html)
 
-    @staticmethod
-    def _read_text_file(filename):
-        with open(filename, 'r') as file:
-            return file.read()
+    #     return ''.join(result_list)
 
-    @staticmethod
-    def _write_text_to_file(filename, text):
-        with open(filename, 'w') as file:
-            file.write(text)

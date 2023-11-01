@@ -176,8 +176,60 @@ Most of the important things I’ve learned have come from books and articles. A
                 </span>
             </div>
 
-${books}
+    % for book in books:
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
 
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="${book['cover']}"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                ${book['name']}
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        ${book['date']}
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        ${book['rating']}/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            ${book['review']}
+                        </div>
+                </div>
+            </div>
+        % endfor
         </div>
 
 <!-- STYLES FOR READING PAGE -> MAIN -->
