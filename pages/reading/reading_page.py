@@ -1,8 +1,10 @@
 import json
 import requests
+import shutil
 from pathlib import Path
 from hashlib import sha256
 from mako.template import Template
+from PIL import Image
 
 
 class ReadingPage:
@@ -33,6 +35,7 @@ class ReadingPage:
     def _generate_cover(self, book):
         filename = self._generate_cover_filename(book)
         cover_path = ReadingPage.BOOKS_IMAGES_PATH / filename
+        print(cover_path)
         if cover_path.exists():
             return cover_path
         if not ReadingPage.BOOKS_IMAGES_PATH.exists():
@@ -40,19 +43,31 @@ class ReadingPage:
         try:
             self._download_cover_image(book['isbn'], cover_path)
         except RuntimeError:
-            default_cover_path = ReadingPage.IMAGES_PATH / 'cover_not_available.png'
-            default_cover_path.copy_to(cover_path)
+            default_cover_path = ReadingPage.IMAGES_PATH / 'cover_not_available.jpg'  # noqa: E501
+            shutil.copy(default_cover_path, cover_path)
         return cover_path
 
     def _generate_cover_filename(self, book):
         filename = '_'.join([book['authors'], book['title'], book['isbn']])
         filename = filename.lower()
         filename = filename.replace(' ', '_')
-        return sha256(filename.encode('UTF-8')).hexdigest()
+        filename = sha256(filename.encode('UTF-8')).hexdigest()
+        filename = f'{filename}.jpg'
+        return filename
 
-    def _download_cover_image(self, isbn, filename):
-        url = f'https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg?default=false'
-        cover = requests.get(url)
-        if not cover.ok:
+    def _convert_image_to_jpg(self, input_path, output_path):
+        image = Image.open(input_path)
+        image.save(output_path, quality=70)
+
+    def _download_cover_image(self, isbn, file_path, convert=False):
+        url = f'https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg?default=false'  # noqa: E501
+        response = requests.get(url)
+        if not response.ok:
             raise RuntimeError('Failed to download book\'s cover')
-        open(filename, 'wb').write(cover.content)
+        if convert:
+            tmp_file_path = ReadingPage.BOOKS_IMAGES_PATH / 'tmp_image'
+            open(tmp_file_path, 'wb').write(response.content)
+            self._convert_image_to_jpg(tmp_file_path, file_path)
+            tmp_file_path.unlink()
+        else:
+            open(file_path, 'wb').write(response.content)
