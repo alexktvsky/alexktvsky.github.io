@@ -1,5 +1,14 @@
 [
     {
+        "title": "Head First Servlets and JSP",
+        "authors": "Bryan Basham, Kathy Sierra, Bert Bates",
+        "isbn": "978-0596516680",
+        "date": "2023-11-02",
+        "rating": "8",
+        "review": "This book offers a comprehensive insight into the fundamentals of Java web development, making it an invaluable resource for understanding the historical context of Servlets and JSP. While the information in the book is outdated, it remains a worthwhile read for those interested in understanding the historical foundations of Servlets and JSP, and can still be valuable for learning the fundamentals of these technologies. Head First books are also known for their fun and engaging approach to learning."
+    },
+
+    {
         "title": "The Rust Programming Language",
         "authors": "Steve Klabnik and Carol Nichols",
         "isbn": "978-1593278281",
