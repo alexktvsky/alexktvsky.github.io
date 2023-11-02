@@ -35,7 +35,6 @@ class ReadingPage:
     def _generate_cover(self, book):
         filename = self._generate_cover_filename(book)
         cover_path = ReadingPage.BOOKS_IMAGES_PATH / filename
-        print(cover_path)
         if cover_path.exists():
             return cover_path
         if not ReadingPage.BOOKS_IMAGES_PATH.exists():
