@@ -1,5 +1,14 @@
 [
     {
+        "title": "Software Architecture Patterns",
+        "authors": "Mark Richards",
+        "isbn": "",
+        "date": "2023-11-23",
+        "rating": "7",
+        "review": "This is a brief guide that succinctly describes five common architectural patterns and provides their comparison in terms of aspects such as performance, scalability, ease of maintenance, etc."
+    },
+
+    {
         "title": "Head First Servlets and JSP",
         "authors": "Bryan Basham, Kathy Sierra, Bert Bates",
         "isbn": "978-0596516680",
