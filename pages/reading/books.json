@@ -1,5 +1,14 @@
 [
     {
+        "title": "Dive into Design Patterns",
+        "authors": "Alexander Shvets",
+        "isbn": "",
+        "date": "2024-01-14",
+        "rating": "9",
+        "review": "This is a excellent book for anyone wanting a thorough grasp of design patterns. Author provides clear explanations and practical examples, making complex concepts accessible for both beginners and experienced programmers. I also like pictures and the detailed descriptions of pattern implementations with code examples in this book."
+    },
+
+    {
         "title": "Software Architecture Patterns",
         "authors": "Mark Richards",
         "isbn": "",
