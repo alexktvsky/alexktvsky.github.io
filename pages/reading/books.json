@@ -117,6 +117,15 @@
     },
 
     {
+        "title": "Как читать книги",
+        "authors": "Сергей Поварнин",
+        "isbn": "",
+        "date": "2022-06",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
         "title": "Java. A Beginner's Guide",
         "authors": "Herbert Schildt",
         "isbn": "978-1-259-58931-7",
