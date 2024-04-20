@@ -1,5 +1,14 @@
 [
     {
+        "title": "Dialogues",
+        "authors": "Stanislaw Lem",
+        "isbn": "",
+        "date": "2024-04-12",
+        "rating": "8",
+        "review": "I like this book because of its fascinating exploration of the philosophical implications surrounding the possibility of recreating individuals as perfect atom-wise copies. This is a thought-provoking book that delves into ethical dilemmas and existential questions. It makes readers think about the nature of identity, consciousness and the essence of human existence."
+    },
+
+    {
         "title": "Dive into Design Patterns",
         "authors": "Alexander Shvets",
         "isbn": "",
