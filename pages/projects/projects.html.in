@@ -6,9 +6,7 @@
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="img/favicon-32x32.png">
-    <title>
-Projects | Alex Kotovsky
-    </title>
+    <title>Projects | Alex Kotovsky</title>
 </head>
 
 <body>
@@ -19,7 +17,7 @@ Projects | Alex Kotovsky
                 margin-left: auto;
                 margin-right: auto;">
 
-                                <!-- HEADER -->
+                                <!-- Header -->
 <!-- -------------------------------------------------------------------- -->
         <div class="header"
              style="display: flex;
@@ -28,60 +26,45 @@ Projects | Alex Kotovsky
             <div class="picture__block"
                  style="display: flex;">
 
-                <!-- CAT IMAGE IN HEADER -->
                 <img src="img/cat.png"
                      alt="cat"
                      class="picture__size"
                      style="margin: auto;">
             </div>
 
-            <!-- FULL NAME IN HEADER -->
             <div class="text__block">
                 <div class="name__block"
                      style="display: flex;
                             flex-direction: column;
                             justify-content: flex-end;">
 
-                    <span class="name__span">
-Alex Kotovsky
-                    </span>
+                    <span class="name__span">Alex Kotovsky</span>
                 </div>
 
-                <!-- NAVIGATION MENU -->
                 <nav class="navigation__block"
                      style="display:flex;
                             justify-content: start;
                             margin-left: auto;
                             margin-right: auto;">
 
-                    <a href="index.html" class="a__nav">
-About
-                    </a>
+                    <a href="index.html" class="a__nav">About</a>
 
-                    <a href="projects.html" class="a__nav">
-Projects
-                    </a>
+                    <a href="projects.html" class="a__nav">Projects</a>
 
-                    <a href="reading.html" class="a__nav">
-Reading
-                    </a>
+                    <a href="reading.html" class="a__nav">Reading</a>
 
-                    <a href="assets/resume.pdf" class="a__nav">
-Resume
-                    </a>
+                    <a href="assets/resume.pdf" class="a__nav">Resume</a>
 
-                    <a href="contacts.html" class="a__nav">
-Contacts
-                    </a>
+                    <a href="contacts.html" class="a__nav">Contacts</a>
                 </nav>
 
             </div>
         </div>
 
-<!-- STYLES FOR HEADER -->
+<!-- Styles for header -->
 <style type="text/css">
 
-    /* FONTS*/
+    /* Fonts*/
     .name__span {
         font-size: 20px;
         font-weight: bold;
@@ -98,7 +81,7 @@ Contacts
         }
     }
 
-    /* COLORS */
+    /* Colors */
     .a__nav {
         color: black;
     }
@@ -108,7 +91,7 @@ Contacts
         }
     }
 
-    /* EFFECTS */
+    /* Effects */
     .a__nav:hover:nth-child(1) {
         border-bottom: 2px solid #00BFFF;
     }
@@ -125,7 +108,7 @@ Contacts
         border-bottom: 2px solid #9932CC;
     }
 
-    /* MARGINS */
+    /* Margins */
     .name__span {
         margin-bottom: 15px;
     }
@@ -153,16 +136,14 @@ Contacts
 </style>
 <!-- --------------------------------------------------------------------- -->
 
-                                <!-- MAIN -->
+                                <!-- Main -->
 <!-- -------------------------------------------------------------------- -->
         <div class="main"
              style="display: flex;
                     flex-direction: column;">
 
             <div class="main__title">
-                <span class="main__title__text">
-Open source projects
-                </span>
+                <span class="main__title__text">Open source projects</span>
             </div>
 
             % for project in projects:
@@ -241,7 +222,7 @@ Open source projects
             % endfor
         </div>
 
-<!-- STYLES FOR PROJECT PAGE -> MAIN -->
+<!-- Styles for project page -> Main -->
 <style type="text/css">
 
     /* FONTS*/
@@ -256,7 +237,7 @@ Open source projects
         line-height: 1.6;
     }
 
-    /* COLORS */
+    /* Colors */
     .button {
         color: black;
     }
@@ -273,7 +254,7 @@ Open source projects
         color: #666;
     }
 
-    /* EFFECTS */
+    /* Effects */
     .project__card {
         border: 2px solid #ddd;
         border-radius: 10px;
@@ -283,7 +264,7 @@ Open source projects
         border-radius: 5px;
     }
 
-    /* MARGIN AND PADDING */
+    /* Margin and padding */
     .main__title {
         margin-top: 40px;
     }
@@ -311,7 +292,7 @@ Open source projects
 </style>
 <!-- -------------------------------------------------------------------- -->
 
-                                <!-- FOOTER -->
+                                <!-- Footer -->
 <!-- -------------------------------------------------------------------- -->
         <div class="footer" style="height: 50px;"></div>
 <!-- -------------------------------------------------------------------- -->
