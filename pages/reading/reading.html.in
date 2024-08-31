@@ -64,7 +64,7 @@
 <!-- Styles for header -->
 <style type="text/css">
 
-    /* Fonts*/
+    /* Fonts */
     .name__span {
         font-size: 20px;
         font-weight: bold;
