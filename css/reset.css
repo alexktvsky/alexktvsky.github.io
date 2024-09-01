@@ -42,7 +42,7 @@ body {
     background-color: #EEE;
     color: black;
 
-    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;       
+    font-family: "Open Sans Regular", "Inter Regular", "OTS derived font";
 }
 .container {
     width: 940px;
