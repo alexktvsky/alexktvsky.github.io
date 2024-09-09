@@ -220,11 +220,11 @@
         font-weight: bold;
     }
     .reading__text {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 1.6;
     }
     .book__name {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: bold;
 
         line-height: 1.3;

@@ -14,7 +14,7 @@
     height: 80px;
 }
 .navigation__block {
-    height: 23px;  /* font-size 17px + margin for border-bottom 6 px*/
+    height: 23px;  /* font-size 17px + margin for border-bottom 6 px */
 }
 @media (max-width: 940px) {
     .header {

@@ -135,9 +135,8 @@
 
 </style>
 <!-- --------------------------------------------------------------------- -->
-
                                 <!-- Main -->
-<!-- -------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
         <div class="main"
              style="display: flex;
                     flex-direction: column;">
@@ -225,7 +224,7 @@
 <!-- Styles for project page -> Main -->
 <style type="text/css">
 
-    /* FONTS*/
+    /* Fonts */
     .main__title__text {
         font-size: 40px;
         font-weight: bold;
