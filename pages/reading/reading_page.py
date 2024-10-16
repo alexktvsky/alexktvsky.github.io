@@ -5,7 +5,7 @@ from pathlib import Path
 from hashlib import sha256
 from mako.template import Template
 from PIL import Image
-
+from requests.exceptions import ConnectTimeout
 
 class ReadingPage:
 
@@ -41,7 +41,7 @@ class ReadingPage:
             ReadingPage.BOOKS_IMAGES_PATH.mkdir()
         try:
             self._download_cover_image(book['isbn'], cover_path)
-        except RuntimeError:
+        except (RuntimeError, ConnectTimeout):
             default_cover_path = ReadingPage.IMAGES_PATH / 'cover_not_available.jpg'  # noqa: E501
             shutil.copy(default_cover_path, cover_path)
         return cover_path

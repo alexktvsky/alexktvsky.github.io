@@ -1,10 +1,28 @@
 [
     {
+        "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "authors": "James Clear",
+        "isbn": "978-0735211292",
+        "date": "2024-10-16",
+        "rating": "10",
+        "review": "This is a highly practical guide to building effective habits and breaking bad ones through small, incremental changes. Author emphasizes the power of consistency and how tiny improvements, when compounded, can lead to significant personal growth. The book is insightful and filled with actionable strategies, making it a valuable read for anyone looking to improve their daily routines."
+    },
+
+    {
+        "title": "Парадигмы, 2nd Edition",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-06576-8",
+        "date": "2024-05-29",
+        "rating": "10",
+        "review": "This book offers an in-depth analysis of modern programming paradigms, their history, and practical application. It is valuable for both beginners and experienced developers."
+    },
+
+    {
         "title": "Dialogues",
         "authors": "Stanislaw Lem",
         "isbn": "",
         "date": "2024-04-12",
-        "rating": "8",
+        "rating": "9",
         "review": "I like this book because of its fascinating exploration of the philosophical implications surrounding the possibility of recreating individuals as perfect atom-wise copies. This is a thought-provoking book that delves into ethical dilemmas and existential questions. It makes readers think about the nature of identity, consciousness and the essence of human existence."
     },
 
@@ -20,7 +38,7 @@
     {
         "title": "Software Architecture Patterns",
         "authors": "Mark Richards",
-        "isbn": "",
+        "isbn": "978-1-491-92424-2",
         "date": "2023-11-23",
         "rating": "7",
         "review": "This is a brief guide that succinctly describes five common architectural patterns and provides their comparison in terms of aspects such as performance, scalability, ease of maintenance, etc."
