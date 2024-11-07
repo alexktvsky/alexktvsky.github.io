@@ -233,7 +233,7 @@
         font-size: 16px;
     }
     .book__value {
-        font-family: Menlo,"IBM Plex Mono",Menlo,monospace;
+        font-family: "Menlo", "IBM Plex Mono", "Menlo", "monospace";
     }
     .book__review {
         line-height: 1.6;
