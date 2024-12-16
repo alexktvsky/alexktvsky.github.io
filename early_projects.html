@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:ital,wght@1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <title>My early projects | Alex Kotovsky</title>
+</head>
+
+<body>
+    <div id="darkOverlay"></div>
+    <div class="container"
+         style="display: flex;
+                flex-direction: column;
+
+                margin-left: auto;
+                margin-right: auto;">
+
+                                <!-- Header -->
+<!-- -------------------------------------------------------------------- -->
+        <div class="header"
+             style="display: flex;
+                    flex-direction: row;">
+
+            <div class="picture__block"
+                 style="display: flex;">
+
+                <img src="img/cat.png"
+                     alt="cat"
+                     class="picture__size"
+                     style="margin: auto;">
+            </div>
+
+            <div class="text__block">
+                <div class="name__block"
+                     style="display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;">
+
+                    <span class="name__span">Alex Kotovsky</span>
+                </div>
+
+                <nav class="navigation__block"
+                     style="display:flex;
+                            justify-content: start;
+                            margin-left: auto;
+                            margin-right: auto;">
+
+                    <a href="index.html" class="a__nav">About</a>
+
+                    <a href="projects.html" class="a__nav">Projects</a>
+
+                    <a href="reading.html" class="a__nav">Reading</a>
+
+                    <a href="early_projects.html" class="a__nav">Resume</a>
+
+                    <a href="contacts.html" class="a__nav">Contacts</a>
+                </nav>
+
+            </div>
+        </div>
+
+<!-- Styles for header -->
+<style type="text/css">
+
+    /* Fonts */
+    .name__span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .a__nav {
+        font-size: 18px;
+    }
+    @media (max-width: 940px) {
+        .name__span {
+            font-size: 18px;
+        }
+        .a__nav {
+            font-size: 16px;
+        }
+    }
+
+    /* Colors */
+    .a__nav {
+        color: black;
+    }
+    @media (max-width: 940px) {
+        .header {
+            background-color: #EEE;
+        }
+    }
+
+    /* Effects */
+    .a__nav:hover:nth-child(1) {
+        border-bottom: 2px solid #00BFFF;
+    }
+    .a__nav:hover:nth-child(2) {
+        border-bottom: 2px solid #FF00FF;
+    }
+    .a__nav:hover:nth-child(3) {
+        border-bottom: 2px solid #FFA500;
+    }
+    .a__nav:hover:nth-child(4) {
+        border-bottom: 2px solid #66CDAA;
+    }
+    .a__nav:hover:nth-child(5) {
+        border-bottom: 2px solid #9932CC;
+    }
+
+    /* Margins */
+    .name__span {
+        margin-bottom: 15px;
+    }
+    .navigation__block {
+        margin-top: 10px;
+    }
+    .a__nav {
+        margin-right: 30px;
+    }
+    @media (max-width: 940px) {
+        .picture__block {
+            margin-top: 10px;
+        }
+        .text__block {
+            margin-left: 7px;
+        }
+        .name__block {
+            margin-top: 10px;
+        }
+        .a__nav {
+            margin-right: 20px;
+        }
+    }
+
+</style>
+<!-- -------------------------------------------------------------------- -->
+
+                                <!-- Main -->
+<!-- -------------------------------------------------------------------- -->
+<div class="main">
+
+    <div class="main__title">
+        <span class="main__title__text">My early projects</span>
+    </div>
+
+    <div class="main_block">
+
+        <div class="about__text">
+            <p class="about__text__margin">
+                During school, I dedicated a significant amount of time to personal projects, driven by my early interest in electronics and invention. My journey began early with an an electronics exploration kit I received as a birthday gift, which sparked my curiosity about how things work. From fifth to seventh grade, I was actively involved in a robotics team, where I participated in and won several local competitions. These experiences not only deepened my technical skills but also reinforced my passion for hands-on learning and problem-solving.
+            </p>
+
+            <p class="about__text__margin">
+                As a child, I was more fascinated by experimenting with high voltage than by traditional circuit engineering, likely due to the visual and exciting nature of these experiments. My projects included building a variety of high-voltage devices, such as a coilgun that earned me a top prize at a local physics Olympiad. I also constructed a Tesla coil, a high voltage power supply, and even an X-ray machine, which required the high voltage power supply to operate. I spent considerable time visiting radio component shops and scouring electronic bulletin boards for rare parts, driven by a desire to push the boundaries of my experiments and learn through hands-on experience.
+            </p>
+        </div>
+
+        <!-- First line of photos -->
+        <div class="photos_line">
+            <div class="photo_block">
+                <img src="img/hv_power_supply.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    High voltage power supply
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/tesla_coil.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Tesla coil
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/jacobs_ladder.jpg"
+                     id="jacobs_ladder"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Jacobs ladder
+                </span>
+            </div>
+        </div>
+
+        <!-- Second line of photos -->
+        <div class="photos_line">
+
+            <div class="photo_block">
+                <img src="img/hv_arc.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    High-voltage arc
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/corona_discharge.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Corona discharge
+                </span>
+            </div>
+        </div>
+
+        <div class="about__text">
+            <p class="about__text__margin">
+                My first successful commercial project was a night vision device. This venture combined my passion for electronics with practical application. The concept was to repurpose an IR camera and an eyepiece from an old analog video camera to build a functional night vision system.
+            </p>
+
+            <p class="about__text__margin">
+                The project presented its challenges, the most significant of which was identifying the correct pins on the eyepiece’s board to interface with the IR camera. This experience highlighted the critical importance of datasheets and detailed technical documentation.
+            </p>
+
+            <p class="about__text__margin">
+                The device was commissioned by an older friend who was an airsoft player. The success of this initial project led me to develop and sell two more night vision devices. Remarkably, at that time I was only 15.
+            </p>
+        </div>
+
+        <div class="photos_line">
+
+            <div class="photo_block">
+                <img src="img/night_vision_device1.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Test stand
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/night_vision_device2.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Assembly process
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/night_vision_device3.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Completed device
+                </span>
+            </div>
+        </div>
+
+        <div class="about__text">
+            <p class="about__text__margin">
+                A year later, I did another significant project for me: a wearable computer. I've been thinking about this for a long time. I decided to use Arduino for its development. However, at that point, my programming skills were limited.
+            </p>
+
+            <p class="about__text__margin">
+                Fortunately, I had a valuable resource in an older pen-pal from another city who who is good at embedded programming. I shared my idea with him and made a technical specifications for the firmware. It wasn't so official. I just wrote down a detailed walk-through of every push of button. What happens when somebody click it? Exactly what did the system do? What happens next?
+            </p>
+
+            <p class="about__text__margin">
+                With the firmware specifications in hand, I enlisted my pen-pal to develop the necessary code. Financial support for the projects came from my mom, who funded my ambitions initiatives. I spent the whole April 2016 connecting components with each other as much compact as possible.
+            </p>
+
+            <p class="about__text__margin">
+                The result wasn't as cool as I expected. There were some problems with performance and eventually, I bought Garmin Foretrex 401. However, I think this project is valuable for me because I learnt a lot from it. Firstly, I learnt how to hire a programmer. Of course, I was lucky and I found programmer with necessary skills and huge amount of patience and motivation on the first try. Secondly, I learnt how to express my ideas in clear way. This is very important when you do projects not alone. And, of course, I completed complex project (I think it is) and make my ideas happen. This is what lights me up and gives me energy to move forward.
+            </p>
+        </div>
+
+        <div class="photos_line">
+
+            <div class="photo_block">
+                <img src="img/wearable_computer1.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    So many thick wires at the beginning
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/wearable_computer2.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    After careful assembly and reduction of the thickness of the wires it looks more compact
+                </span>
+            </div>
+        </div>
+
+        <div class="about__text">
+            <p class="about__text__margin">
+                From a very young age, I've been thrilled about bionic technology. I was a big fun of computer games such as Bionic Commando, Deus Ex: Human Revolution and Call of Duty: Advanced Warfare.
+            </p>
+
+            <p class="about__text__margin">
+                I made a lot of attempts to create exoskeleton. Of course, all of them were naive. One day I decided to make another one by creating a lower part of exoskeleton for legs. Its was made from shaped pipes, to which linear actuators were attached. The operator commands were read using EMG sensors attached to the muscles. The signal processing and control block was implemented using Arduino. Now this implementation of exo seems very naive, but then it was a big step forward for me.
+            </p>
+        </div>
+
+        <div class="photos_line">
+
+            <div class="photo_block">
+                <img src="img/exoskeleton1.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Turning works
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/exoskeleton2.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Assembly stage
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/exoskeleton3.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Unfortunately, this is the only photo of the final result that I could find
+                </span>
+            </div>
+        </div>
+
+        <div class="about__text">
+            <p class="about__text__margin">
+                One of my notable projects was developing a bionic arm prosthesis for my physical education teacher. The project I used a 3D printed robot arm from the InMoov project. The arm has been modified to be used in conjunction with a prosthetic socket for arm. The servo drives were replaced with a hydraulic system and the hydraulic pistons were mounted externally. I used Arduino to control arm movement and gather data from the EMG sensors.
+            </p>
+        </div>
+
+        <div class="photos_line">
+
+            <div class="photo_block">
+                <img src="img/bionic_prosthesis4.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Open-handed prosthesis
+                </span>
+            </div>
+
+            <div class="photo_block">
+                <img src="img/bionic_prosthesis3.jpg"
+                     class=" project__photo__size myImg">
+                <div class="modal">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <img class="modal-content" id="modalImage"></img>
+                </div>
+                <span class="photo_description">
+                    Close-handed prosthesis
+                </span>
+            </div>
+        </div>
+
+        <div class="about__text">
+            <p class="about__text__margin">
+                To sum up, these projects taught me the importance of perseverance, curiosity, and the value of learning from failure. While I'm proud of what I've accomplished so far, I'm excited about what lies ahead.
+            </p>
+        </div>
+    </div>
+
+<style>
+    /* Marking */
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main_block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photos_line {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .photo_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .project__photo__size {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+    @media (max-width: 940px) {
+        .photos_line {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    /* Fonts */
+    .main__title__text {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .about__text {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .photo_description {
+        font-family: "Open Sans", "sans-serif";
+    }
+
+    /* Colors */
+    .project__photo {
+        background-color: white;
+    }
+
+    /* Effects */
+    /* Photo frame */
+    .project__photo {
+        border: 3px solod black;
+        border-radius: 5px;
+    }
+
+    /* Margin and padding */
+    .main__title {
+        margin-top: 40px;
+    }
+    .about__text {
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .about__text__margin {
+        margin-bottom: 20px;
+    }
+    .photos_line {
+        margin-top: 10px;
+    }
+    .project__photo {
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+    .photo_description {
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+    @media (max-width: 940px) {
+        .main__title {
+            margin-left: 10px;
+        }
+        .about__text {
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .photo_description {
+            padding-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+    }
+</style>
+
+</div>
+<!-- -------------------------------------------------------------------- -->
+                                <!-- Footer -->
+<!-- -------------------------------------------------------------------- -->
+        <div class="footer" style="height: 50px;"></div>
+    </div>
+
+    <script type="text/javascript" src="js/early_projects_modal.js"></script>
+</body>
+</html>
