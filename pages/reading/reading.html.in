@@ -6,7 +6,7 @@
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="img/favicon-32x32.png">
-    <title>About me | Alex Kotovsky</title>
+    <title>Reading | Alex Kotovsky</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
                                 <!-- Header -->
 <!-- -------------------------------------------------------------------- -->
-        <div class="header"
+       <div class="header"
              style="display: flex;
                     flex-direction: row;">
 
@@ -53,7 +53,7 @@
 
                     <a href="reading.html" class="a__nav">Reading</a>
 
-                    <a href="index.html" class="a__nav">Resume</a>
+                    <a href="reading.html" class="a__nav">Resume</a>
 
                     <a href="contacts.html" class="a__nav">Contacts</a>
                 </nav>
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-<!-- styles for header -->
+<!-- Styles for header -->
 <style type="text/css">
 
     /* Fonts */
@@ -92,13 +92,13 @@
     }
 
     /* Effects */
-    .a__nav:nth-child(1) {
+    .a__nav:hover:nth-child(1) {
         border-bottom: 2px solid #00BFFF;
     }
     .a__nav:hover:nth-child(2) {
         border-bottom: 2px solid #FF00FF;
     }
-    .a__nav:hover:nth-child(3) {
+    .a__nav:nth-child(3) {
         border-bottom: 2px solid #FFA500;
     }
     .a__nav:hover:nth-child(4) {
@@ -138,160 +138,193 @@
 
                                 <!-- Main -->
 <!-- -------------------------------------------------------------------- -->
-
         <div class="main"
              style="display: flex;
                     flex-direction: column;">
 
             <div class="main__title">
-                <span class="main__title__text">Hi, I'm Alex!</span>
+                <span class="main__title__text">
+                    <p>Summaries and Reviews</p>
+                    <p>from Books I've Read</p>
+                </span>
             </div>
 
-            <div class="about__block"
-                 style="display: flex;
-                        flex-wrap: wrap;">
-
-                <div class="about__text">
-
-                    <p class="about__text__margin">
-                        I'm a software engineer who enjoys understanding how things work under the hood and making them work better :)
-                    </p>
-
-                    <p class="about__text__margin">
-                        Over the years, I've had the opportunity to work with various technologies, from developing desktop applications and fault tolerance distributed systems in C++, to building scalable backend services in Java and Python. I've worked in both large companies and small startups, and each experience fuels my love for problem-solving and building efficient solutions.
-                    </p>
-
-                    <p class="about__text__margin">
-                        I spend a significant portion of my time reading books, taking evergreen notes, writing code and creating with technology. For me, the journey of learning and improving my skills is as rewarding as the outcome itself. I believe in having passion for your craft and attention to detail.
-                    </p>
-
-                    <p class="about__text__margin">
-                        Thanks for stopping by! Feel free to explore and get to know a bit more about me and my work. Check out the <a href="projects.html" class="a__about">projects</a> page to see a highlight of my open-source work, <a href="reading.html" class="a__about">reading</a> for summaries and reviews from books I've read and more. There is also an article about <a href="early_projects.html" class="a__about">my early projects</a>.
-                    </p>
-                </div>
-
-                <!-- <div class="about__photo"
-                 style="display: flex;
-                        margin-left: auto;
-                        margin-right: auto;">
-
-                <img src="img/me.jpg"
-                     class="photo__one"
-                     alt="myPhoto"
-                     id="myImg"
-                     style="margin-left: auto;
-                            margin-right: auto;">
-                </div> -->
-
-                <div id="myModal" class="modal">
-                    <span class="close"
-                          onclick="document.getElementById('myModal').style.display='none'">
-                              &times;
-                          </span>
-                          <img class="modal-content" id="img_01">
-                </div>
-
+            <div class="reading__description">
+                <span class="reading__text">
+                    Most of the important things I’ve learned have come from books and articles. After seeing <a href="https://sivers.org/" class="a__reading">Derek Sivers</a> publicizes his book notes, I decided I would publicize all of my summaries from books and articles I was reading.
+                </span>
             </div>
+
+    % for book in books:
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="${book['cover']}"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                ${book['name']}
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        ${book['date']}
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        ${book['rating']}/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            ${book['review']}
+                        </div>
+                </div>
+            </div>
+        % endfor
         </div>
 
-        <!-- Invisible link for Mastodon verifying -->
-        <a rel="me" href="https://mastodon.social/@alexktvsky"></a>
-
-<!-- Styles for main -->
+<!-- Styles for reading page -> Main -->
 <style type="text/css">
 
     /* Fonts */
     .main__title__text {
-        font-size: 38px;
+        font-size: 40px;
         font-weight: bold;
     }
-    .about__text {
+    .reading__text {
         font-size: 17px;
         line-height: 1.6;
     }
-    .title {
-        font-size: 26px;
+    .book__name {
+        font-size: 17px;
         font-weight: bold;
+
+        line-height: 1.3;
     }
-    .updated {
+    .date__reading__text {
         font-size: 16px;
-        font-style: italic;
+    }
+    .book__value {
+        font-family: "Menlo", "IBM Plex Mono", "Menlo", "monospace";
+    }
+    .book__review {
+        line-height: 1.6;
+    }
+    @media (max-width: 940px) {
+        .main__title__text {
+            font-size: 31px;
+            font-weight: bold;
+        }
     }
 
     /* Colors */
-    .a__about:hover {
+    .a__reading:hover {
         background: #B0C4DE;
     }
-    .about__photo {
+    .book__card {
         background-color: white;
     }
-    ul li::before {
-        color: blue;
+    .book__name {
+        color:  #252525;
+    }
+    .date__reading__text {
+        color: #666;
+    }
+    .book__review {
+        color: black;
     }
 
     /* Effects */
-    .a__about {
-        border-bottom: 2px solid blue;
+    .book__card {
+        border: 2px solid #ddd;
+        border-radius: 10px;
     }
-    ul li::before {
-        content: "\2022";   /*Dot for li*/
-    }
-    .about__photo {         /* photo frame */
-        border: 3px solod black;
-        border-radius: 5px;
-    }
-    @media (max-width: 940px) {
-        /* Keeping the header in place while scrolling the page. */
-        /* .header {
-            position: sticky;
-            top: 0;
-        } */
+    .a__reading {
+        border-bottom: 2px solid #4169E1;
     }
 
-    /* Margin and padding */
+    /* Margins and paddings */
     .main__title {
         margin-top: 40px;
     }
-    .about__text {
+    .reading__description {
         margin-top: 30px;
-        margin-right: 30px;
     }
-    .about__text__margin {
-        margin-bottom: 20px;
+    .book__card {
+        margin-top: 30px;
     }
-    li {
-        margin-left: 10px;
+    .book__picture__size {
+        margin-top: 10px;
     }
-    .list__style {
-        margin-left: 20px;
-        text-indent: -10px;
+    .book__name__block {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    .about__photo {
-        margin-top: 20px;
+    .date__reading {
+        margin-bottom: 10px;
     }
-    .photo__one {
-        margin-top: 40px;
+    .book__review {
+        margin-top: 10px;
+
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
     @media (max-width: 940px) {
         .main__title {
             margin-left: 10px;
         }
-        .about__text {
+        .reading__description {
             margin-top: 30px;
             margin-right: 10px;
             margin-left: 10px;
         }
+        .book__card {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .book__info {
+            margin-right: 5px;
+        }
+        .book__review {
+            margin-top: 10px;
+        }
     }
 
 </style>
-<!-- -------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
 
                                 <!-- Footer -->
 <!-- -------------------------------------------------------------------- -->
         <div class="footer" style="height: 50px;"></div>
 <!-- -------------------------------------------------------------------- -->
     </div>
-
-    <script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>

@@ -1,0 +1,133 @@
+[
+    {
+        "name": "trogondb",
+        "year": "2025",
+        "description": "A simple distributed key-value database",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/trogondb"
+            }
+        ]
+    },
+
+    {
+        "name": "Personal website",
+        "year": "2023",
+        "description": "The source of this website.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/alexktvsky.github.io"
+            }
+        ]
+    },
+
+    {
+        "name": "Raytracer",
+        "year": "2021",
+        "description": "A training project aimed at learning ray tracing algorithm and practicing convert sequential CPU code into a parallelized GPU code using CUDA.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/raytracer"
+            }
+        ]
+    },
+
+    {
+        "name": "Segment based allocator",
+        "year": "2021",
+        "description": "A simply allocator uses virtual memory model based upon segments.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/sb_allocator"
+            }
+        ]
+    },
+
+    {
+        "name": "world3d",
+        "year": "2021",
+        "description": "A simple program demonstrates work with OpenGL library.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/world3d"
+            }
+        ]
+    },
+
+    {
+        "name": "floppix",
+        "year": "2020",
+        "description": "A lightweight, high-performance, portable web server inspired by Apache and Nginx.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/floppix"
+            }
+        ]
+    },
+
+    {
+        "name": "TEC (Template Extension Compiler)",
+        "year": "2020",
+        "description": "A source code preprocessing system that adds syntax of C++ like templates to pure C.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/tec"
+            }
+        ]
+    },
+
+    {
+        "name": "Simplified Portable Runtime Library (SPR)",
+        "year": "2020",
+        "description": "A library provides cross-platform C/C++ API for platform-specific functionality (such as work with files and threads).",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/spr"
+            }
+        ]
+    },
+
+    {
+        "name": "FPP (File Protection Program)",
+        "year": "2019",
+        "description": "A simple program for file encryption.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/fpp"
+            }
+        ]
+    },
+
+    {
+        "name": "EasyPG",
+        "year": "2019",
+        "description": "A simple tool to generate cryptographically secure pseudorandom passwords.",
+        "buttons": [
+            {
+                "name": "Source",
+                "url": "https://github.com/alexktvsky/easypg"
+            }
+        ]
+    },
+
+    {
+        "name": "Early projects ",
+        "year": "2017",
+        "description": "All my early projects that I did in school until 2017.",
+        "buttons": [
+            {
+                "name": "Article",
+                "url": "https://alexktvsky.com/early_projects.html"
+            }
+        ]
+    }
+]

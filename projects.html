@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+    <title>Projects | Alex Kotovsky</title>
+</head>
+
+<body>
+    <div class="container"
+         style="display: flex;
+                flex-direction: column;
+
+                margin-left: auto;
+                margin-right: auto;">
+
+                                <!-- Header -->
+<!-- -------------------------------------------------------------------- -->
+        <div class="header"
+             style="display: flex;
+                    flex-direction: row;">
+
+            <div class="picture__block"
+                 style="display: flex;">
+
+                <img src="img/cat.png"
+                     alt="cat"
+                     class="picture__size"
+                     style="margin: auto;">
+            </div>
+
+            <div class="text__block">
+                <div class="name__block"
+                     style="display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;">
+
+                    <span class="name__span">Alex Kotovsky</span>
+                </div>
+
+                <nav class="navigation__block"
+                     style="display:flex;
+                            justify-content: start;
+                            margin-left: auto;
+                            margin-right: auto;">
+
+                    <a href="index.html" class="a__nav">About</a>
+
+                    <a href="projects.html" class="a__nav">Projects</a>
+
+                    <a href="reading.html" class="a__nav">Reading</a>
+
+                    <a href="projects.html" class="a__nav">Resume</a>
+
+                    <a href="contacts.html" class="a__nav">Contacts</a>
+                </nav>
+
+            </div>
+        </div>
+
+<!-- Styles for header -->
+<style type="text/css">
+
+    /* Fonts */
+    .name__span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .a__nav {
+        font-size: 18px;
+    }
+    @media (max-width: 940px) {
+        .name__span {
+            font-size: 18px;
+        }
+        .a__nav {
+            font-size: 16px;
+        }
+    }
+
+    /* Colors */
+    .a__nav {
+        color: black;
+    }
+    @media (max-width: 940px) {
+        .header {
+            background-color: #EEE;
+        }
+    }
+
+    /* Effects */
+    .a__nav:hover:nth-child(1) {
+        border-bottom: 2px solid #00BFFF;
+    }
+    .a__nav:nth-child(2) {
+        border-bottom: 2px solid #FF00FF;
+    }
+    .a__nav:hover:nth-child(3) {
+        border-bottom: 2px solid #FFA500;
+    }
+    .a__nav:hover:nth-child(4) {
+        border-bottom: 2px solid #66CDAA;
+    }
+    .a__nav:hover:nth-child(5) {
+        border-bottom: 2px solid #9932CC;
+    }
+
+    /* Margins */
+    .name__span {
+        margin-bottom: 15px;
+    }
+    .navigation__block {
+        margin-top: 10px;
+    }
+    .a__nav {
+        margin-right: 30px;
+    }
+    @media (max-width: 940px) {
+        .picture__block {
+            margin-top: 10px;
+        }
+        .text__block {
+            margin-left: 7px;
+        }
+        .name__block {
+            margin-top: 10px;
+        }
+        .a__nav {
+            margin-right: 20px;
+        }
+    }
+
+</style>
+<!-- --------------------------------------------------------------------- -->
+                                <!-- Main -->
+<!-- --------------------------------------------------------------------- -->
+        <div class="main"
+             style="display: flex;
+                    flex-direction: column;">
+
+            <div class="main__title">
+                <span class="main__title__text">Open source projects</span>
+            </div>
+
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                trogondb
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2025
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A simple distributed key-value database
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/trogondb"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                Personal website
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2023
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                The source of this website.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/alexktvsky.github.io"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                Raytracer
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2021
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A training project aimed at learning ray tracing algorithm and practicing convert sequential CPU code into a parallelized GPU code using CUDA.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/raytracer"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                Segment based allocator
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2021
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A simply allocator uses virtual memory model based upon segments.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/sb_allocator"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                world3d
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2021
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A simple program demonstrates work with OpenGL library.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/world3d"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                floppix
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2020
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A lightweight, high-performance, portable web server inspired by Apache and Nginx.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/floppix"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                TEC (Template Extension Compiler)
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2020
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A source code preprocessing system that adds syntax of C++ like templates to pure C.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/tec"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                Simplified Portable Runtime Library (SPR)
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2020
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A library provides cross-platform C/C++ API for platform-specific functionality (such as work with files and threads).
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/spr"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                FPP (File Protection Program)
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2019
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A simple program for file encryption.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/fpp"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                EasyPG
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2019
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                A simple tool to generate cryptographically secure pseudorandom passwords.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://github.com/alexktvsky/easypg"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Source
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card"
+                    style="display: flex;
+                           flex-direction: column;">
+
+                    <div class="card__settings"
+                        style="margin-left: auto;
+                               margin-right: auto;">
+
+                        <div class="project__name__block"
+                        style="display: flex;
+                               justify-content: space-between;">
+
+                            <span class="progect__name"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                                Early projects 
+                            </span>
+
+                            <span class="progect__date"
+                            style="margin-top: auto;
+                                   margin-bottom: auto;">
+                            2017
+                            </span>
+                        </div>
+
+                        <div class="description">
+                            <span class="description__text">
+                                All my early projects that I did in school until 2017.
+                            </span>
+                        </div>
+
+                        <div class="button__block"
+                            style="display: flex;
+                                   flex-direction: row;">
+
+                                <div class="button__template"
+                                    style="margin-top: auto;
+                                           margin-bottom: auto;">
+
+                                    <a href="https://alexktvsky.com/early_projects.html"
+                                       class="button"
+                                       style="display: flex;">
+                                        <span class="button__text"
+                                            style="margin-top: auto;
+                                                   margin-bottom: auto;">
+                                            Article
+                                        </span>
+                                        <span class="link__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                style="width: 1rem;
+                                                       height: 1rem;
+                                                       fill: currentcolor;">
+                                                <g data-name="Layer 2">
+                                                    <g data-name="external-link">
+                                                        <rect width="24"
+                                                            height="24"
+                                                            opacity="0">
+                                                        </rect>
+                                                        <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path>
+                                                        <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+<!-- Styles for project page -> Main -->
+<style type="text/css">
+
+    /* Fonts */
+    .main__title__text {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .progect__name {
+        font-size: 20px;
+    }
+    .description__text {
+        line-height: 1.6;
+    }
+
+    /* Colors */
+    .button {
+        color: black;
+    }
+    .project__card {
+        background-color: white;
+    }
+    .button__template {
+        background-color: #eee;
+    }
+    .progect__name {
+        color: #252525;
+    }
+    .description__text {
+        color: #666;
+    }
+
+    /* Effects */
+    .project__card {
+        border: 2px solid #ddd;
+        border-radius: 10px;
+    }
+    .button__template {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    /* Margin and padding */
+    .main__title {
+        margin-top: 40px;
+    }
+    .project__card {
+        margin-top: 20px;
+    }
+    .button {
+        padding: 3px;
+    }
+    .link__icon {
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+    .button__template {
+        padding-left: 5px;
+        padding-right: 5px;
+
+        margin-right: 10px;
+    }
+    @media (max-width: 940px) {
+        .main__title {
+            margin-left: 10px;
+        }
+    }
+</style>
+<!-- -------------------------------------------------------------------- -->
+                                <!-- Footer -->
+<!-- -------------------------------------------------------------------- -->
+        <div class="footer" style="height: 50px;"></div>
+<!-- -------------------------------------------------------------------- -->
+    </div>
+</body>
+</html>
