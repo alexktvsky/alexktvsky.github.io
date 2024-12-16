@@ -1,0 +1,155 @@
+/* HEADER */
+.header{
+    height: 130px;
+}
+.picture__block {
+    height: 130px;
+    width: 130px;
+}
+.picture__size {
+    height: 100px;
+    width: 100px;
+}
+.name__block {
+    height: 80px;
+}
+.navigation__block {
+    height: 23px;  /* font-size 17px + margin for border-bottom 6 px */
+}
+@media (max-width: 940px) {
+    .header {
+        height: 90px;
+    }
+    .picture__block { width: 0px; height: 0px; }
+    .picture__size { width: 0px; height: 0px; }
+    .name__block {
+        height: 40px;
+    }
+    .navigation__block {
+        height: 20px;
+    }
+}
+
+
+/* MAIN PAGE -> MAIN */
+.about__text {
+    width: 600px;
+}
+.about__photo {
+    width: 310px;
+    height: 550px;
+}
+.photo__one {
+    width: 290px;
+    height: 500px;
+}
+
+
+/* PROJECT PAGE -> MAIN */
+.project__card {
+    min-height: 160px;
+    width: 600px;
+}
+.card__settings {
+    width: 570px;
+}
+.project__name__block {
+    height: 60px;
+}
+.description {
+    min-height: 40px;
+}
+.button__block {
+    height: 60px;
+}
+.button {
+    height: 30px;
+}
+.project__pic {
+    height: 12px;
+    width: 12px;
+}
+@media (max-width: 940px) {
+    .project__card {
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card__settings {
+        width: 320px;
+    }
+}
+
+/* READING PAGE -> MAIN */
+.reading__description {
+    width: 600px;
+}
+.book__card {
+    min-height: 180px;
+    width: 600px;
+}
+.book__picture {
+    width: 150px;
+    height: 200px;
+}
+.book__picture__size {
+    width: 130px;
+    height: 180px;
+}
+.book__name__block {
+    min-height: 50px;
+    width: 430px;
+}
+.book__name {
+    width: 430px;
+}
+.book__review {
+    width: 430px;
+}
+@media (max-width: 940px) {
+    .book__review {
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .book__card {
+        width: 350px;
+    }
+    .book__picture { width: 0px; height: 0px; }
+    .book__picture__size { width: 0px; height: 0px; }
+    .book__name__block {
+        min-height: 50px;
+        width: 330px;
+    }
+    .book__name {
+        width: 310px;
+    }
+    .book__review {
+        width: 310px;
+    }
+}
+
+.photos_line {
+    width: 630px;
+}
+.project__photo {
+    width: 200px;
+    height: 220px;
+}
+.project__photo__size {
+    height: 180px;
+    width: 180px;
+}
+.photo_description {
+    max-width: 200px;
+}
+@media (max-width: 940px) {
+    .project__photo {
+        width: 300px;
+        height: 320px;
+    }
+    .project__photo__size {
+        height: 280px;
+        width: 280px;
+    }
+}
