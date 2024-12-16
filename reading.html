@@ -1,0 +1,4384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
+    <title>Reading | Alex Kotovsky</title>
+</head>
+
+<body>
+    <div class="container"
+         style="display: flex;
+                flex-direction: column;
+
+                margin-left: auto;
+                margin-right: auto;">
+
+                                <!-- Header -->
+<!-- -------------------------------------------------------------------- -->
+       <div class="header"
+             style="display: flex;
+                    flex-direction: row;">
+
+            <div class="picture__block"
+                 style="display: flex;">
+
+                <img src="img/cat.png"
+                     alt="cat"
+                     class="picture__size"
+                     style="margin: auto;">
+            </div>
+
+            <div class="text__block">
+                <div class="name__block"
+                     style="display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;">
+
+                    <span class="name__span">Alex Kotovsky</span>
+                </div>
+
+                <nav class="navigation__block"
+                     style="display:flex;
+                            justify-content: start;
+                            margin-left: auto;
+                            margin-right: auto;">
+
+                    <a href="index.html" class="a__nav">About</a>
+
+                    <a href="projects.html" class="a__nav">Projects</a>
+
+                    <a href="reading.html" class="a__nav">Reading</a>
+
+                    <a href="reading.html" class="a__nav">Resume</a>
+
+                    <a href="contacts.html" class="a__nav">Contacts</a>
+                </nav>
+
+            </div>
+        </div>
+
+<!-- Styles for header -->
+<style type="text/css">
+
+    /* Fonts */
+    .name__span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .a__nav {
+        font-size: 18px;
+    }
+    @media (max-width: 940px) {
+        .name__span {
+            font-size: 18px;
+        }
+        .a__nav {
+            font-size: 16px;
+        }
+    }
+
+    /* Colors */
+    .a__nav {
+        color: black;
+    }
+    @media (max-width: 940px) {
+        .header {
+            background-color: #EEE;
+        }
+    }
+
+    /* Effects */
+    .a__nav:hover:nth-child(1) {
+        border-bottom: 2px solid #00BFFF;
+    }
+    .a__nav:hover:nth-child(2) {
+        border-bottom: 2px solid #FF00FF;
+    }
+    .a__nav:nth-child(3) {
+        border-bottom: 2px solid #FFA500;
+    }
+    .a__nav:hover:nth-child(4) {
+        border-bottom: 2px solid #66CDAA;
+    }
+    .a__nav:hover:nth-child(5) {
+        border-bottom: 2px solid #9932CC;
+    }
+
+    /* Margins */
+    .name__span {
+        margin-bottom: 15px;
+    }
+    .navigation__block {
+        margin-top: 10px;
+    }
+    .a__nav {
+        margin-right: 30px;
+    }
+    @media (max-width: 940px) {
+        .picture__block {
+            margin-top: 10px;
+        }
+        .text__block {
+            margin-left: 7px;
+        }
+        .name__block {
+            margin-top: 10px;
+        }
+        .a__nav {
+            margin-right: 20px;
+        }
+    }
+
+</style>
+<!-- --------------------------------------------------------------------- -->
+
+                                <!-- Main -->
+<!-- -------------------------------------------------------------------- -->
+        <div class="main"
+             style="display: flex;
+                    flex-direction: column;">
+
+            <div class="main__title">
+                <span class="main__title__text">
+                    <p>Summaries and Reviews</p>
+                    <p>from Books I've Read</p>
+                </span>
+            </div>
+
+            <div class="reading__description">
+                <span class="reading__text">
+                    Most of the important things I’ve learned have come from books and articles. After seeing <a href="https://sivers.org/" class="a__reading">Derek Sivers</a> publicizes his book notes, I decided I would publicize all of my summaries from books and articles I was reading.
+                </span>
+            </div>
+
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/a103daf1324a745a14e13178ecfa66be95c6eb385c21cd25609133eafd3fbbf0.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Core Java Volume I, 11th Edition by Cay Horstmann
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2025-04-26
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            It is a clear and comprehensive guide for mastering the fundamentals of Java. It balances practical examples with in-depth explanations, making it ideal for both beginners and intermediate developers.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/d9db48e96e20a2a269898010f8ffbd5d1ec34c861e6e606ea1528c38d855827f.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2024-10-16
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is a highly practical guide to building effective habits and breaking bad ones through small, incremental changes. Author emphasizes the power of consistency and how tiny improvements, when compounded, can lead to significant personal growth. The book is insightful and filled with actionable strategies, making it a valuable read for anyone looking to improve their daily routines.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/7d85d83f429d9c336594edbade0152aaa36c619b2ac54162aeb660efd6ada5fb.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Парадигмы, 2nd Edition by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2024-05-29
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This book offers an in-depth analysis of modern programming paradigms, their history, and practical application. It is valuable for both beginners and experienced developers.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/2e15d248c085fcb37dd0be8e414ba3b4c3942f3917de017770fe94fa4a9ae0fe.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Dialogues by Stanislaw Lem
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2024-04-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            I like this book because of its fascinating exploration of the philosophical implications surrounding the possibility of recreating individuals as perfect atom-wise copies. This is a thought-provoking book that delves into ethical dilemmas and existential questions. It makes readers think about the nature of identity, consciousness and the essence of human existence.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/0c5d8c5eb10af55f05f9d94ca9951e29f9e57efeae028c1d87282c9cce72d2f1.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Dive into Design Patterns by Alexander Shvets
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2024-01-14
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is a excellent book for anyone wanting a thorough grasp of design patterns. Author provides clear explanations and practical examples, making complex concepts accessible for both beginners and experienced programmers. I also like pictures and the detailed descriptions of pattern implementations with code examples in this book.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/604f837c77a0a178a215af6b7b73b6726194df4e5a29fb9d812d62d1d601913e.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Software Architecture Patterns by Mark Richards
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-11-23
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        7/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is a brief guide that succinctly describes five common architectural patterns and provides their comparison in terms of aspects such as performance, scalability, ease of maintenance, etc.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/feff89ab3e1dac4481256670783d67ee33ad617882f3933adcf8fd87db2779ad.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Head First Servlets and JSP by Bryan Basham, Kathy Sierra, Bert Bates
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-11-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This book offers a comprehensive insight into the fundamentals of Java web development, making it an invaluable resource for understanding the historical context of Servlets and JSP. While the information in the book is outdated, it remains a worthwhile read for those interested in understanding the historical foundations of Servlets and JSP, and can still be valuable for learning the fundamentals of these technologies. Head First books are also known for their fun and engaging approach to learning.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/5ef9223d9c51fc74e44e04e3136b2d05eaf78ea43a97f385cef108eb4af9bf09.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Rust Programming Language by Steve Klabnik and Carol Nichols
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-10-24
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This book is an excellent choice for anyone interested in Rust. This well-structured book guides readers through the language's unique features and provides practical insights, making it a comprehensive introduction to Rust.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/063e726188a902aa17258314e9d02940c19f47c26d667e700cdca928008a606d.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Technological Singularity by Vernor Vinge
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-10-22
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This article makes me think about an unprecedented technological acceleration, driven by artificial intelligence, could reshape our world in ways beyond our current comprehension. The article is a valuable resource for those interested in the intersection of technology and humanity's future.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/0f081ccadc5c86bbffb7fe3874da401bee063dc1bfba2d77f2f1c40329e4ee7f.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Road to Financial Freedom by Bodo Schafer
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-10-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is a powerful guide that not only imparts valuable financial wisdom but also emphasizes the importance of cultivating the right mindset for financial success. Schafer's practical advice and motivational insights make this book an essential read for those looking to take control of their financial future.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/1003d85900ece88a890808984e3c5ff29542d163c730655d8e75a2208595d0bb.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Just for Fun: The Story of an Accidental Revolutionary by Linus Torvalds, David Diamond
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-08-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is an enthralling and inspiring memoir by Linus Torvalds, the creator of the Linux operating system. The book gives a fascinating look into Torvalds' journey from an unassuming student to a groundbreaking innovator in the world of open-source software. With humor and candid insights, Torvalds shares his experiences, challenges, and triumphs. A great read for tech enthusiasts and anyone curious about how open collaboration can change things.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/1f0bc1211b7390d1cec0b2d23b1f0014e4ef7b85f70f105a60ba34e9c7988ee5.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win by Gene Kim, Kevin Behr, George Spafford
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-07-10
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This book takes readers on a captivating journey as they follow the protagonist through a company's IT department in complete disarray, facing constant failures and bottlenecks. With its insightful blend of storytelling and practical lessons, this book offers valuable insights into the principles of DevOps and how to transform chaotic organizations into efficient, high-performing teams. I think this book is a good starting point for anyone seeking to understand the challenges and opportunities in modern IT management.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/09e0c377f14709db76d88db9f5e48701465a729e74fdd72fcc6ae4378907f447.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Design of Web APIs by Arnaud Lauret
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-05-03
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        7/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is a useful book on how to design an efficient, reliable, and secure API that takes into account the view of the consumer. It explains the concepts of RESTful API and contains many answers to questions that arise during designing APIs in practice. From my point of view, some examples are oversimplified and some ideas duplicate again and again in different chapters which makes reading boring, but aside from that, it's excellent.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/de887da74e1d488ca6308fda8198474e923517caf8847e8a4865626b94a29456.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Азы программирования, 2nd Edition by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2023-02-18
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            This is an amazing book that covers such topics as the history of computing, the mathematical foundations of programming, the principles of building computing systems, as well as programming in Pascal and x86 assembly language. The new edition is just as great as the first one. I especially like discussion of some areas of mathematics in this book because of simplicity and accessibility. The compelling storytelling style, coupled with the author's unique philosophy, makes this book interesting and enthralling. This book provides a solid foundation for further study of computer science and programming. I recommend it to everyone who is just starting to learn programming, as well as to those who already have experience.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/8a76c5710ffd7ca8ac9fc24d22b242a5e8a98eb9552a0528f2d2e6ddadf68ee2.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                How to Take Smart Notes by Sönke Ahrens
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-07-25
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            It is an insightful and practical guide to transforming the way we take and use notes for enhanced learning and productivity. Ahrens introduces the concept of the Zettelkasten method, emphasizing the importance of developing a knowledge network through interconnected notes. The book's practical tips and insightful explanations make it a must-read for anyone seeking to improve their note-taking habits and knowledge management.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/43fc20eb3224d1169413629348de134b140c14599ac6b4322e5022ac76be6447.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                What I Wish I Knew When I Was 20 by Tina Seelig
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-07-10
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            It is an inspiring book that offers valuable life advice for young adults. The author's wisdom and personal anecdotes provide a practical guide on navigating challenges, making decisions, and finding purpose.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/716cfeea8e0b946349d8a6f9c9e1e97d163b9dbb416e44d82fc021418c947c71.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Scrum by Jeff Sutherland
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-06-18
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            The book provides valuable insights into the principles and practices of Scrum, making it accessible to both beginners and experienced practitioners. With real-world examples and practical tips, Sutherland's writing style makes it a compelling and must-read resource for anyone seeking to enhance their agile project management skills.
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e2e7106b3451f3953b2fdb1e5a4f073e0a4caf23a723fdf5e887e12170bb3e0b.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Как читать книги by Сергей Поварнин
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-06
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/978e6437b133b49728404d643c821e5eda41f2e4e2220c4705b965c7a598e3f6.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Java. A Beginner's Guide by Herbert Schildt
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e1401f13bde6f811e6e7b8fc310c66151c63c26a087e53d375ef492c6005f0b8.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Java in a Nutshell by Benjamin Evans, David Flanagan
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        6/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/eacc0689aa028141b721d6e6862448021759b9cd18442c83205d3d6518ae1628.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Remote: Office Not Required by Jason Fried, David Hansson
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/cf915fafecf69d7d2dff76ff69ae4a567a3a0a7f31b0637c6dc20f574c61aeb6.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Flask Web Development by Miguel Grinberg
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2022-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/17e48a814df1b889328d6d8d3a55d7addcfad8bee164213507ed6336fb639eaf.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Grokking Algorithms by Aditya Bhargava
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/bf8549151768bd754828b673ae7e73c443408bab5dd47efca6344d73e76fbf8a.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Kubernetes in Action by Marko Lukša
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/8d59309e37c08dbfc60e46bebfe6651ce7f538757704895d334c3dfaf5c7fa16.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Algorithm Design Manual by Steven Skiena
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/64aabf1ba97c9561eca8298606a9bbeae8ad74cfc6773b4ba48ebfd5edaaa772.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Python Cookbook by David Beazley, Brian Jones
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/6b5f2dab9aec920780d9994ecc3ff2f6ea41c30bdabbd7f1887125ee3d76047a.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Designing Distributed Systems by Brendan Burns
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/4cf5ba2d85b98046c3015e8aa5a0cca83ef3b29bb7ca94740a48e92a7c42a13e.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Go Programming Language by Alan Donovan, Brian Kernighan
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        6/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/b6305a9be237757e5065f56ed4b84d6c88dc243ba6231a426c1c98334e389a10.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Introducing Python by Bill Lubanovic
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/64028251892e02620c648fd3e43be80e1e926667776572a991c96bf776d29676.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Python Crash Course, 2nd Edition by Eric Matthes
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/00dd0bb5777cb65198c9fcca7c0468755c38c9846e95eecadb0f197a2765f12e.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Learning Python by Mark Lutz
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-10
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/7c991e490d2e2f368f567b595ad34832b7e8df741bafe9461d636f23f96dca04.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                OpenGL 4 Shading Language Cookbook by David Wolff
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-07
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/5a22e1b8751e11d65163a8b5c2e05228a8410f0de03ea4f608984abfd740d90c.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Introduction to Ray Tracing by Andrew Glassner
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-06
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/5375277681869cf3dce45a441019f50fe6d64940d3e7bcee6d14d7ea3ec13054.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                CUDA by Example by Jason Sanders, Edward Kandrot
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-06
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/faad8447c2f07151f66cfd13e125aa8723472e84b9bc173557cfa631d7c0d9b7.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Rich Dad Poor Dad by Robert Kiyosaki
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/c9ecb5cb03f313eb056eda60225436c49038de49a4b3c7a60687e91211e404b4.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Boost.Asio C++ Network Programming by John Torjo
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/c7f5896a6f17f1bffa8cc3a7a679610bb11eaaf911b43fba4cf0c8073c82f240.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                CUDA C++ Best Practices Guide Design Guide
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-04
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/b97f915fa7c16e50a4d512d4072fda783ce9dddb6fe24f5d36767b5f6436897d.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                CUDA Compiler Driver NVCC Reference Guide
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-04
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/907bd81c6d7b7f13c1a6577fe3cee09ab54aac3a1f9a523d0c7380a0d689cddf.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                CUDA C++ Programming Guide
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-04
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e9adbcf52608d0dadb8c2d51a0df2d026a190f54720429876a4cd91992890e90.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Технология программирования CUDA
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-04
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/cec6b47c5cf6cfe4cebd6043ea6fcd8d4275a5477979acfd1b4587dfc168386b.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Миллионы миллиардов by Максим Михеенко
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-03
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/b57f59b7b12450b6c1bffb54c97e5e7e811adfbeb2098bd87ad1e74476a9dbe8.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Learning C++ by Creating Games with UE4 by William Sherif
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-03
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/0881eb73f1e155e36662a98cd72a6d238ea77fae63090f9278dd39384dd9a77e.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Unreal Engine 4 Game Development in 24 Hours by Aram Cookson, Ryan DowlingSoka, Clinton Crumpler
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/7aea51b9b7bf7427097d524f9e22255c18c77fcc448a4f1fb3c2837a5c9fe301.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Version Control with Subversion by Michael Pilato, Ben Collins-Sussman, et al.
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2021-01
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e7b9d6f08506d0a98de45e9bd6767bb9ee4f62fded7360f20a5c50596deb78ab.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Never Eat Alone by Keith Ferrazzi
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/c0c2ef022360f28724530b4315e1a877a0e602492030b5b0fa9456d266db1bdc.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Введение в C++, 5nd Edition by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/eb7e0c9920112a798a572f6c7063cba188d87bbd82595e8fc8bd73ab6a833c56.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                OpenGL SuperBible by Richard Wright, Benjamin Lipchak
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/733dad1d36d0ecb2cadc8db8bf7243d06a345db2f3765e9926a0837d6a749dfb.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Blood, Sweat, and Pixels by Jason Schreier
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/93960dfe1a5e770b9cc35f540f2d212a785165fc8afc09e82e81aeb0ce0b5233.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Enough Rope to Shoot Yourself in the Foot by Allen Holub
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-10
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/09f92d735cb1f3b805a48ef0ffd4931542b076f5f7b9aa8b7e05767145bfd093.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Техника и философия хакерских by Kris Kaspersky
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-10
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/b4578302a854ed87b3804bfd618bac0c68a0510e7920cf194e60a343b481ed6f.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Qt 5.3. Профессиональное программирование на C++ by Максим Шлее
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-09
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/54a4694ff6d0562be7f833a35437772ae16ace7f85ebb051a029fcd14f0e554f.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                LATEX За Три Дня by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-08
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e421e3c38e02f3f36ab49be6a78d335e95faa97583b01639bddd9b2cd99bc56c.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Effective Modern C++ by Scott Meyers
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-07
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/1a9a5f261b250ddf5633d31cdfae814591bbe3c5d339ec81462d7b1d42b3f65e.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Компьютерные сети by Виктор Олифер, Наталья Олифер
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-06
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/33fd3e2b96105068b0151986bcde93f1ab4a2c83cd722812852ec67bef1da194.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Оформление Программного Кода by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-06
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/98bac8f8efed3c730c476b95c5086002998c5713f4d8b34668998ccc93243f1c.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Практикум На ЭВМ. Многопользовательский Игровой Сервер by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-06
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        7/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/22b570517b47a0d08e37a6d716506f6d1db69f7ad277d6444f9b071640452da6.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Zero to One by Peter Thiel, Blake Masters
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/3b4e169dfc10b8c08b0cad3df4284568bbf287624a3e0b8265ba8257d52d06e6.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Linux глазами хакера by Михаил Фленов
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-04
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        6/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/67dcf759c02ac326fbef25b2112947628f9e5964fa5417e94fa2648ffc112745.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                C++ Primer Plus by Stephen Prata
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-03
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/4e840567332ac5fb0607be5a06f7838c7459618a95dd1f558f29da65010f4a90.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                C++ Programming Language by Bjarne Stroustrup
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/bead2219186717627f9ae3c4dacef484383ddee5eeacdcbc9cbea5f0399c923d.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                C++ for Real Programmers by Bjarne Stroustrup
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-01
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/be3adaab54794f332ce087d99dcab63d0cc1ce76d571f7a621ef297eb92ad2fa.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Fedora 8. Руководство пользователя by Денис Колисниченко
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2020-01
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        6/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/72c7183744e3d93a4c0617aaaf0760a9a87c89f4a23b8a1b6225da166c3988e8.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                FreeBSD. От новичка к профессионалу by Денис Колисниченко
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/1856aa43b9d4b71d582630dbdc98734468eb1688417c39251067e2b726b11a5c.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Системы и Сети by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/76c5b86cce03a5228c2dfdc23d13529bb1c175897f748601a1571397e6a1a81b.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Введение в C++, 4nd Edition by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e078d3906b78837bf851c931e3e589a9044c1bdffdfab23e29a534a1adc8181e.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Applied Cryptography by Bruce Schneier
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/aac737285b7179678356c4123d5afb90d2a6c10157d9864afd37b746adbb52f2.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Низкоуровневое программирование by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-11
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/e859e9a2ec2440356883a95736efd3db65e469f83e4a8b4fe82405138250ad92.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Азы программирования by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-10
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/d33f28065ccbe46539d9e145873132f4c5ae7042b4d51f5dd78fbf0582e13695.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Foundations of Multithreaded, Parallel, and Distributed Programming by Gregory Andrews
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-09
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/b0fdbfc2ef306b4fd4efe2ff903edae5ef64faf32d61a3dda174e4b0077c1b1f.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Architecture of Open Source Applications, Volume II by Amy Brown, Greg Wilson
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-08
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/3a2d871f8eb9031914ce72b3a43d94ef19a23b3b97c3fae5e0e4f7ca2b4defb1.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The Architecture of Open Source Applications by Amy Brown, Greg Wilson
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-08
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/4e130f0072a46b183a4a3f9a8b3f35b3d190b870d0e7ee51b2e679221fe26f74.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                21st Century C by Ben Klemens
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-07
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/70b18c2dae407ae0cb41668fa30a55bdda75ff2a85bcaa9c56009b413af51fc3.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Pro Git by Scott Chacon
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/94074ffb8063cc7150682a94be12bbc7c581b85bd380c739ff783d69a6eb7048.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Cathedral and the Bazaar by Eric Raymond
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/8438322934f21e09376db0a1d8fc2a81c81adfb9e967a62128fa60267d3337b5.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Программирование На Языке Ассемблера NASM Для ОС UNIX by Андрей Столяров
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/dff3ab422709d65d0c8dca9226a9704f5bd4fa3335dce063c5b326474858e2a7.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Mythical Man-Month by Frederick Brooks
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-03
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/68714fcc91b24cfefa9ce701651c334f438dbfa843e955839f7c9f0e6218c3b0.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                The C Programming Language by Brian Kernighan, Dennis Ritchie
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2019-02
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        9/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/7557a7b7c614eca496fedf0723f440644a366c1f503c8e5338498700fce5d4fd.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                Занимательная Электроника by Юрий Ревич
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2018-12
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        10/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="book__card"
+                 style="display: flex;
+                        flex-direction: row;">
+
+                    <div class="book__picture"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+
+                        <img src="img/books/331ee9066c57eb15ca0236aae815ace60685df996b239899b3b0671c7b14455b.jpg"
+                             class="book__picture__size">
+                    </div>
+
+                    <div class="book__info"
+                         style="display: flex;
+                         flex-direction: column;">
+
+                        <div class="book__name__block"
+                             style="display: flex;
+                                    justify-content: space-between;">
+
+                            <div class="book__name"
+                                 style="margin-top: auto;
+                                        margin-bottom: auto;">
+
+                                MATLAB: An Introduction with Applications by Amos Gilat
+                            </div>
+
+                        </div>
+
+                        <div class="date__reading">
+                            <span class="date__reading__text">
+                                <p style="margin-bottom: 10px;">
+
+                                    <span>Date read: </span>
+                                    <span class="book__value">
+                                        2018-05
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book__value">
+                                        8/10
+                                    </span>
+                                </p>
+                            </span>
+                        </div>
+
+                        <div class="book__review">
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Styles for reading page -> Main -->
+<style type="text/css">
+
+    /* Fonts */
+    .main__title__text {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .reading__text {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .book__name {
+        font-size: 17px;
+        font-weight: bold;
+
+        line-height: 1.3;
+    }
+    .date__reading__text {
+        font-size: 16px;
+    }
+    .book__value {
+        font-family: "Menlo", "IBM Plex Mono", "Menlo", "monospace";
+    }
+    .book__review {
+        line-height: 1.6;
+    }
+    @media (max-width: 940px) {
+        .main__title__text {
+            font-size: 31px;
+            font-weight: bold;
+        }
+    }
+
+    /* Colors */
+    .a__reading:hover {
+        background: #B0C4DE;
+    }
+    .book__card {
+        background-color: white;
+    }
+    .book__name {
+        color:  #252525;
+    }
+    .date__reading__text {
+        color: #666;
+    }
+    .book__review {
+        color: black;
+    }
+
+    /* Effects */
+    .book__card {
+        border: 2px solid #ddd;
+        border-radius: 10px;
+    }
+    .a__reading {
+        border-bottom: 2px solid #4169E1;
+    }
+
+    /* Margins and paddings */
+    .main__title {
+        margin-top: 40px;
+    }
+    .reading__description {
+        margin-top: 30px;
+    }
+    .book__card {
+        margin-top: 30px;
+    }
+    .book__picture__size {
+        margin-top: 10px;
+    }
+    .book__name__block {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .date__reading {
+        margin-bottom: 10px;
+    }
+    .book__review {
+        margin-top: 10px;
+
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    @media (max-width: 940px) {
+        .main__title {
+            margin-left: 10px;
+        }
+        .reading__description {
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .book__card {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .book__info {
+            margin-right: 5px;
+        }
+        .book__review {
+            margin-top: 10px;
+        }
+    }
+
+</style>
+<!-- --------------------------------------------------------------------- -->
+
+                                <!-- Footer -->
+<!-- -------------------------------------------------------------------- -->
+        <div class="footer" style="height: 50px;"></div>
+<!-- -------------------------------------------------------------------- -->
+    </div>
+</body>
+</html>

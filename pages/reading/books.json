@@ -1,0 +1,712 @@
+[
+    {
+        "title": "Core Java Volume I, 11th Edition",
+        "authors": "Cay Horstmann",
+        "isbn": "978-0143130444",
+        "date": "2025-04-26",
+        "rating": "10",
+        "review": "It is a clear and comprehensive guide for mastering the fundamentals of Java. It balances practical examples with in-depth explanations, making it ideal for both beginners and intermediate developers."
+    },
+
+    {
+        "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "authors": "James Clear",
+        "isbn": "978-0735211292",
+        "date": "2024-10-16",
+        "rating": "10",
+        "review": "This is a highly practical guide to building effective habits and breaking bad ones through small, incremental changes. Author emphasizes the power of consistency and how tiny improvements, when compounded, can lead to significant personal growth. The book is insightful and filled with actionable strategies, making it a valuable read for anyone looking to improve their daily routines."
+    },
+
+    {
+        "title": "Парадигмы, 2nd Edition",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-06576-8",
+        "date": "2024-05-29",
+        "rating": "10",
+        "review": "This book offers an in-depth analysis of modern programming paradigms, their history, and practical application. It is valuable for both beginners and experienced developers."
+    },
+
+    {
+        "title": "Dialogues",
+        "authors": "Stanislaw Lem",
+        "isbn": "",
+        "date": "2024-04-12",
+        "rating": "9",
+        "review": "I like this book because of its fascinating exploration of the philosophical implications surrounding the possibility of recreating individuals as perfect atom-wise copies. This is a thought-provoking book that delves into ethical dilemmas and existential questions. It makes readers think about the nature of identity, consciousness and the essence of human existence."
+    },
+
+    {
+        "title": "Dive into Design Patterns",
+        "authors": "Alexander Shvets",
+        "isbn": "",
+        "date": "2024-01-14",
+        "rating": "9",
+        "review": "This is a excellent book for anyone wanting a thorough grasp of design patterns. Author provides clear explanations and practical examples, making complex concepts accessible for both beginners and experienced programmers. I also like pictures and the detailed descriptions of pattern implementations with code examples in this book."
+    },
+
+    {
+        "title": "Software Architecture Patterns",
+        "authors": "Mark Richards",
+        "isbn": "978-1-491-92424-2",
+        "date": "2023-11-23",
+        "rating": "7",
+        "review": "This is a brief guide that succinctly describes five common architectural patterns and provides their comparison in terms of aspects such as performance, scalability, ease of maintenance, etc."
+    },
+
+    {
+        "title": "Head First Servlets and JSP",
+        "authors": "Bryan Basham, Kathy Sierra, Bert Bates",
+        "isbn": "978-0596516680",
+        "date": "2023-11-02",
+        "rating": "8",
+        "review": "This book offers a comprehensive insight into the fundamentals of Java web development, making it an invaluable resource for understanding the historical context of Servlets and JSP. While the information in the book is outdated, it remains a worthwhile read for those interested in understanding the historical foundations of Servlets and JSP, and can still be valuable for learning the fundamentals of these technologies. Head First books are also known for their fun and engaging approach to learning."
+    },
+
+    {
+        "title": "The Rust Programming Language",
+        "authors": "Steve Klabnik and Carol Nichols",
+        "isbn": "978-1593278281",
+        "date": "2023-10-24",
+        "rating": "9",
+        "review": "This book is an excellent choice for anyone interested in Rust. This well-structured book guides readers through the language's unique features and provides practical insights, making it a comprehensive introduction to Rust."
+    },
+
+    {
+        "title": "Technological Singularity",
+        "authors": "Vernor Vinge",
+        "isbn": "",
+        "date": "2023-10-22",
+        "rating": "10",
+        "review": "This article makes me think about an unprecedented technological acceleration, driven by artificial intelligence, could reshape our world in ways beyond our current comprehension. The article is a valuable resource for those interested in the intersection of technology and humanity's future."
+    },
+
+    {
+        "title": "The Road to Financial Freedom",
+        "authors": "Bodo Schafer",
+        "isbn": "1441704132",
+        "date": "2023-10-11",
+        "rating": "9",
+        "review": "This is a powerful guide that not only imparts valuable financial wisdom but also emphasizes the importance of cultivating the right mindset for financial success. Schafer's practical advice and motivational insights make this book an essential read for those looking to take control of their financial future."
+    },
+
+    {
+        "title": "Just for Fun: The Story of an Accidental Revolutionary",
+        "authors": "Linus Torvalds, David Diamond",
+        "isbn": "978-0066620732",
+        "date": "2023-08-05",
+        "rating": "10",
+        "review": "This is an enthralling and inspiring memoir by Linus Torvalds, the creator of the Linux operating system. The book gives a fascinating look into Torvalds' journey from an unassuming student to a groundbreaking innovator in the world of open-source software. With humor and candid insights, Torvalds shares his experiences, challenges, and triumphs. A great read for tech enthusiasts and anyone curious about how open collaboration can change things."
+    },
+
+    {
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "authors": "Gene Kim, Kevin Behr, George Spafford",
+        "isbn": "978-0988262591",
+        "date": "2023-07-10",
+        "rating": "9",
+        "review": "This book takes readers on a captivating journey as they follow the protagonist through a company's IT department in complete disarray, facing constant failures and bottlenecks. With its insightful blend of storytelling and practical lessons, this book offers valuable insights into the principles of DevOps and how to transform chaotic organizations into efficient, high-performing teams. I think this book is a good starting point for anyone seeking to understand the challenges and opportunities in modern IT management."
+    },
+
+    {
+        "title": "The Design of Web APIs",
+        "authors": "Arnaud Lauret",
+        "isbn": "9781617295102",
+        "date": "2023-05-03",
+        "rating": "7",
+        "review": "This is a useful book on how to design an efficient, reliable, and secure API that takes into account the view of the consumer. It explains the concepts of RESTful API and contains many answers to questions that arise during designing APIs in practice. From my point of view, some examples are oversimplified and some ideas duplicate again and again in different chapters which makes reading boring, but aside from that, it's excellent."
+    },
+
+    {
+        "title": "Азы программирования, 2nd Edition",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-06574-4",
+        "date": "2023-02-18",
+        "rating": "10",
+        "review": "This is an amazing book that covers such topics as the history of computing, the mathematical foundations of programming, the principles of building computing systems, as well as programming in Pascal and x86 assembly language. The new edition is just as great as the first one. I especially like discussion of some areas of mathematics in this book because of simplicity and accessibility. The compelling storytelling style, coupled with the author's unique philosophy, makes this book interesting and enthralling. This book provides a solid foundation for further study of computer science and programming. I recommend it to everyone who is just starting to learn programming, as well as to those who already have experience."
+    },
+
+    {
+        "title": "How to Take Smart Notes",
+        "authors": "Sönke Ahrens",
+        "isbn": "978-1-5428-6650-7",
+        "date": "2022-07-25",
+        "rating": "10",
+        "review": "It is an insightful and practical guide to transforming the way we take and use notes for enhanced learning and productivity. Ahrens introduces the concept of the Zettelkasten method, emphasizing the importance of developing a knowledge network through interconnected notes. The book's practical tips and insightful explanations make it a must-read for anyone seeking to improve their note-taking habits and knowledge management."
+    },
+
+    {
+        "title": "What I Wish I Knew When I Was 20",
+        "authors": "Tina Seelig",
+        "isbn": "978-0-06-173519-6",
+        "date": "2022-07-10",
+        "rating": "10",
+        "review": "It is an inspiring book that offers valuable life advice for young adults. The author's wisdom and personal anecdotes provide a practical guide on navigating challenges, making decisions, and finding purpose."
+    },
+
+    {
+        "title": "Scrum",
+        "authors": "Jeff Sutherland",
+        "isbn": "978-0-385-34645-0",
+        "date": "2022-06-18",
+        "rating": "10",
+        "review": "The book provides valuable insights into the principles and practices of Scrum, making it accessible to both beginners and experienced practitioners. With real-world examples and practical tips, Sutherland's writing style makes it a compelling and must-read resource for anyone seeking to enhance their agile project management skills."
+    },
+
+    {
+        "title": "Как читать книги",
+        "authors": "Сергей Поварнин",
+        "isbn": "",
+        "date": "2022-06",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
+        "title": "Java. A Beginner's Guide",
+        "authors": "Herbert Schildt",
+        "isbn": "978-1-259-58931-7",
+        "date": "2022-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Java in a Nutshell",
+        "authors": "Benjamin Evans, David Flanagan",
+        "isbn": "978-1-4920-3725-5",
+        "date": "2022-02",
+        "rating": "6",
+        "review": ""
+    },
+
+    {
+        "title": "Remote: Office Not Required",
+        "authors": "Jason Fried, David Hansson",
+        "isbn": "978-0-09-195467-3",
+        "date": "2022-02",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Flask Web Development",
+        "authors": "Miguel Grinberg",
+        "isbn": "978-1-4919-9173-2",
+        "date": "2022-02",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
+        "title": "Grokking Algorithms",
+        "authors": "Aditya Bhargava",
+        "isbn": "978-1-61729-223-1",
+        "date": "2021-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Kubernetes in Action",
+        "authors": "Marko Lukša",
+        "isbn": "978-1-61729-372-6",
+        "date": "2021-12",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "The Algorithm Design Manual",
+        "authors": "Steven Skiena",
+        "isbn": "978-1-84996-720-4",
+        "date": "2021-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Python Cookbook",
+        "authors": "David Beazley, Brian Jones",
+        "isbn": "978-1-4493-4037-7",
+        "date": "2021-11",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
+        "title": "Designing Distributed Systems",
+        "authors": "Brendan Burns",
+        "isbn": "978-1-4919-8364-5",
+        "date": "2021-11",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "The Go Programming Language",
+        "authors": "Alan Donovan, Brian Kernighan",
+        "isbn": "978-0-13-419044-0",
+        "date": "2021-11",
+        "rating": "6",
+        "review": ""
+    },
+
+    {
+        "title": "Introducing Python",
+        "authors": "Bill Lubanovic",
+        "isbn": "978-1-4493-5936-2",
+        "date": "2021-11",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
+        "title": "Python Crash Course, 2nd Edition",
+        "authors": "Eric Matthes",
+        "isbn": "978-1-59327-928-8",
+        "date": "2021-11",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "Learning Python",
+        "authors": "Mark Lutz",
+        "isbn": "978-1-4493-5573-9",
+        "date": "2021-10",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "OpenGL 4 Shading Language Cookbook",
+        "authors": "David Wolff",
+        "isbn": "978-1-78216-702-0",
+        "date": "2021-07",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "Introduction to Ray Tracing",
+        "authors": "Andrew Glassner",
+        "isbn": "978-0-12-286160-4",
+        "date": "2021-06",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "CUDA by Example",
+        "authors": "Jason Sanders, Edward Kandrot",
+        "isbn": "978-0-13-138768-3",
+        "date": "2021-06",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Rich Dad Poor Dad",
+        "authors": "Robert Kiyosaki",
+        "isbn": "978-1-61268-019",
+        "date": "2021-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Boost.Asio C++ Network Programming",
+        "authors": "John Torjo",
+        "isbn": "978-1-61268-019",
+        "date": "2021-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "CUDA C++ Best Practices Guide Design Guide",
+        "authors": "",
+        "isbn": "",
+        "date": "2021-04",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "CUDA Compiler Driver NVCC Reference Guide",
+        "authors": "",
+        "isbn": "",
+        "date": "2021-04",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "CUDA C++ Programming Guide",
+        "authors": "",
+        "isbn": "",
+        "date": "2021-04",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Технология программирования CUDA",
+        "authors": "",
+        "isbn": "",
+        "date": "2021-04",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Миллионы миллиардов",
+        "authors": "Максим Михеенко",
+        "isbn": "978-5-4461-1747-5",
+        "date": "2021-03",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Learning C++ by Creating Games with UE4",
+        "authors": "William Sherif",
+        "isbn": "978-1-78439-657-2",
+        "date": "2021-03",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Unreal Engine 4 Game Development in 24 Hours",
+        "authors": "Aram Cookson, Ryan DowlingSoka, Clinton Crumpler",
+        "isbn": "978-0-672-33762-8",
+        "date": "2021-02",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Version Control with Subversion",
+        "authors": "Michael Pilato, Ben Collins-Sussman, et al.",
+        "isbn": "978-0-596-51033-6",
+        "date": "2021-01",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Never Eat Alone",
+        "authors": "Keith Ferrazzi",
+        "isbn": "978-0-385-34665-8",
+        "date": "2020-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Введение в C++, 5nd Edition",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-06294-1",
+        "date": "2020-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "OpenGL SuperBible",
+        "authors": "Richard Wright, Benjamin Lipchak",
+        "isbn": "978-0-672-32601-1",
+        "date": "2020-12",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "Blood, Sweat, and Pixels",
+        "authors": "Jason Schreier",
+        "isbn": "978-0-06-265123-5",
+        "date": "2020-11",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Enough Rope to Shoot Yourself in the Foot",
+        "authors": "Allen Holub",
+        "isbn": "978-0-07-029689-3",
+        "date": "2020-10",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Техника и философия хакерских",
+        "authors": "Kris Kaspersky",
+        "isbn": "",
+        "date": "2020-10",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Qt 5.3. Профессиональное программирование на C++",
+        "authors": "Максим Шлее",
+        "isbn": "978-5-9775-3346-1",
+        "date": "2020-09",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
+        "title": "LATEX За Три Дня",
+        "authors": "Андрей Столяров",
+        "isbn": "",
+        "date": "2020-08",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "Effective Modern C++",
+        "authors": "Scott Meyers",
+        "isbn": "978-1-4919-0399-5",
+        "date": "2020-07",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Компьютерные сети",
+        "authors": "Виктор Олифер, Наталья Олифер",
+        "isbn": "978-5-4461-1426-9",
+        "date": "2020-06",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Оформление Программного Кода",
+        "authors": "Андрей Столяров",
+        "isbn": "",
+        "date": "2020-06",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Практикум На ЭВМ. Многопользовательский Игровой Сервер",
+        "authors": "Андрей Столяров",
+        "isbn": "",
+        "date": "2020-06",
+        "rating": "7",
+        "review": ""
+    },
+
+    {
+        "title": "Zero to One",
+        "authors": "Peter Thiel, Blake Masters",
+        "isbn": "978-0-8041-3929-8",
+        "date": "2020-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Linux глазами хакера",
+        "authors": "Михаил Фленов",
+        "isbn": "978-5-9775-0547-5",
+        "date": "2020-04",
+        "rating": "6",
+        "review": ""
+    },
+
+    {
+        "title": "C++ Primer Plus",
+        "authors": "Stephen Prata",
+        "isbn": "978-0-321-77640-2",
+        "date": "2020-03",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "C++ Programming Language",
+        "authors": "Bjarne Stroustrup",
+        "isbn": "978-0-201-53992-9",
+        "date": "2020-02",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "C++ for Real Programmers",
+        "authors": "Bjarne Stroustrup",
+        "isbn": "978-0-12-049942-7",
+        "date": "2020-01",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "Fedora 8. Руководство пользователя",
+        "authors": "Денис Колисниченко",
+        "isbn": "978-5-8459-1360-9",
+        "date": "2020-01",
+        "rating": "6",
+        "review": ""
+    },
+
+    {
+        "title": "FreeBSD. От новичка к профессионалу",
+        "authors": "Денис Колисниченко",
+        "isbn": "978-5-9775-0673-1",
+        "date": "2019-12",
+        "rating": "8",
+        "review": ""
+    },
+
+    {
+        "title": "Системы и Сети",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-05606-3",
+        "date": "2019-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Введение в C++, 4nd Edition",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-05781-7",
+        "date": "2019-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Applied Cryptography",
+        "authors": "Bruce Schneier",
+        "isbn": "978-0-471-12845-8",
+        "date": "2019-11",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Низкоуровневое программирование",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-05301-7",
+        "date": "2019-11",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Азы программирования",
+        "authors": "Андрей Столяров",
+        "isbn": "978-5-317-05222-5",
+        "date": "2019-10",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Foundations of Multithreaded, Parallel, and Distributed Programming",
+        "authors": "Gregory Andrews",
+        "isbn": "978-0-201-35752-3",
+        "date": "2019-09",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "The Architecture of Open Source Applications, Volume II",
+        "authors": "Amy Brown, Greg Wilson",
+        "isbn": "978-1-105-57181-7",
+        "date": "2019-08",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "The Architecture of Open Source Applications",
+        "authors": "Amy Brown, Greg Wilson",
+        "isbn": "978-1-257-63801-7",
+        "date": "2019-08",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "21st Century C",
+        "authors": "Ben Klemens",
+        "isbn": "978-1-4919-0389-6",
+        "date": "2019-07",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Pro Git",
+        "authors": "Scott Chacon",
+        "isbn": "978-1-4842-0077-3",
+        "date": "2019-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Cathedral and the Bazaar",
+        "authors": "Eric Raymond",
+        "isbn": "",
+        "date": "2019-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Программирование На Языке Ассемблера NASM Для ОС UNIX",
+        "authors": "Андрей Столяров",
+        "isbn": "",
+        "date": "2019-05",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "Mythical Man-Month",
+        "authors": "Frederick Brooks",
+        "isbn": "978-0-201-83595-3",
+        "date": "2019-03",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "The C Programming Language",
+        "authors": "Brian Kernighan, Dennis Ritchie",
+        "isbn": "978-0-13-110362-7",
+        "date": "2019-02",
+        "rating": "9",
+        "review": ""
+    },
+
+    {
+        "title": "Занимательная Электроника",
+        "authors": "Юрий Ревич",
+        "isbn": "978-5-9775-0411-9",
+        "date": "2018-12",
+        "rating": "10",
+        "review": ""
+    },
+
+    {
+        "title": "MATLAB: An Introduction with Applications",
+        "authors": "Amos Gilat",
+        "isbn": "978-1-118-62986-4",
+        "date": "2018-05",
+        "rating": "8",
+        "review": ""
+    }
+]
