@@ -1,0 +1,76 @@
+---
+import { links } from "../components/headerLinks";
+import Layout from "../layouts/Layout.astro";
+import "../styles/pages/contacts.css";
+import { normalizePath } from "../utils/url";
+
+const currentPath = normalizePath(Astro.url.pathname);
+const currentPage = links.find((link) => link.url === currentPath);
+const pageTitle = currentPage?.title ?? "";
+---
+
+<Layout pageTitle={pageTitle}>
+    <main class="main">
+        <div class="main-title">
+            <h1 class="main-title-text">Get in touch!</h1>
+        </div>
+
+        <p class="contacts-intro">
+            Feel free to send me a message or follow me.
+        </p>
+
+        <div class="contacts-list">
+            <div class="contact-row">
+                <span class="contact-label">Email:</span>
+                <a href="mailto:alexktvsky@gmail.com" class="contact-link">
+                    me@alexktvsky.com
+                </a>
+            </div>
+
+            <div class="contact-row">
+                <span class="contact-label">GitHub:</span>
+                <a href="https://github.com/alexktvsky" class="contact-link">
+                    @alexktvsky
+                </a>
+            </div>
+
+            <div class="contact-row">
+                <span class="contact-label">LinkedIn:</span>
+                <a
+                    href="https://www.linkedin.com/in/alexktvsky/"
+                    class="contact-link"
+                >
+                    @alexktvsky
+                </a>
+            </div>
+
+            <div class="contact-row">
+                <span class="contact-label">Twitter:</span>
+                <a href="https://twitter.com/alexktvsky" class="contact-link">
+                    @alexktvsky
+                </a>
+            </div>
+
+            <div class="contact-row">
+                <span class="contact-label">Bluesky:</span>
+                <a
+                    href="https://bsky.app/profile/alexktvsky.bsky.social"
+                    class="contact-link"
+                >
+                    @alexktvsky.bsky.social
+                </a>
+            </div>
+
+            <div class="contact-row">
+                <span class="contact-label">Mastodon:</span>
+                <a
+                    href="https://mastodon.social/@alexktvsky"
+                    class="contact-link"
+                    rel="me"
+                >
+                    @alexktvsky@mastodon.social
+                </a>
+            </div>
+        </div>
+    </main>
+</Layout>

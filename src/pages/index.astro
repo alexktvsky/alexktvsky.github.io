@@ -1,0 +1,114 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/pages/index.css";
+---
+
+<Layout pageTitle="">
+    <main class="main">
+        <div class="main-title">
+            <h1 class="main-title-text">Hi, I'm Alex!</h1>
+        </div>
+
+        <section class="about-text">
+            <p class="about-text-margin">
+                I'm a software engineer who enjoys understanding how things work
+                under the hood and making them work better.
+            </p>
+
+            <p class="about-text-margin">
+                Over the years, I've had the opportunity to work with various
+                technologies, from developing desktop applications and
+                fault-tolerant distributed systems in C++, to building scalable
+                backend services in Java and Python. I've worked in both large
+                companies and small startups, and each experience has fueled my
+                love for problem-solving and building efficient solutions.
+            </p>
+
+            <p class="about-text-margin">
+                I spend a significant portion of my time reading books, taking
+                evergreen notes, writing code and creating with technology. For
+                me, the journey of learning and improving my skills is as
+                rewarding as the outcome itself. I believe in having passion for
+                your craft and attention to detail.
+            </p>
+
+            <p class="about-text-margin">
+                Thanks for stopping by! Feel free to explore and get to know a
+                bit more about me and my work. Check out the
+                <a href="/projects" class="about-link">projects</a>
+                page to see a highlight of my open-source work,
+                <a href="/reading" class="about-link">reading</a>
+                for summaries and reviews from books I've read and more. There is
+                also an article about
+                <a href="/early-projects" class="about-link"
+                    >my early projects</a
+                >.
+            </p>
+        </section>
+
+        <!-- <img
+            src="/me.jpg"
+            class="photo-one"
+            alt="Photo of Alex Kotovsky"
+            id="myImg"
+            loading="lazy"
+            decoding="async"
+        /> -->
+
+        <div
+            id="myModal"
+            class="modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Enlarged photo"
+        >
+            <button type="button" class="close" aria-label="Close image modal">
+                &times;
+            </button>
+            <img class="modal-content" id="img_01" alt="Enlarged photo" />
+        </div>
+
+        <a
+            rel="me"
+            href="https://mastodon.social/@alexktvsky"
+            class="mastodon-hidden"
+        >
+            Mastodon
+        </a>
+    </main>
+
+    <script>
+        const modal = document.getElementById("myModal");
+        const img = document.getElementById("myImg");
+        const modalImg = document.getElementById("img_01");
+        const closeBtn = document.querySelector(".close");
+
+        if (
+            modal instanceof HTMLDivElement &&
+            img instanceof HTMLImageElement &&
+            modalImg instanceof HTMLImageElement &&
+            closeBtn instanceof HTMLButtonElement
+        ) {
+            img.addEventListener("click", () => {
+                modal.style.display = "block";
+                modalImg.src = img.src;
+            });
+
+            closeBtn.addEventListener("click", () => {
+                modal.style.display = "none";
+            });
+
+            modal.addEventListener("click", (event) => {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            });
+
+            window.addEventListener("keydown", (event) => {
+                if (event.key === "Escape") {
+                    modal.style.display = "none";
+                }
+            });
+        }
+    </script>
+</Layout>

@@ -1,0 +1,78 @@
+---
+import { links } from "../components/headerLinks";
+import rawBooks from "../data/books.json";
+import Layout from "../layouts/Layout.astro";
+import "../styles/pages/reading.css";
+import { enrichBook } from "../utils/books";
+import { normalizePath } from "../utils/url";
+
+const currentPath = normalizePath(Astro.url.pathname);
+const currentPage = links.find((link) => link.url === currentPath);
+const pageTitle = currentPage?.title ?? "";
+
+const books = rawBooks.map(enrichBook);
+---
+
+<Layout pageTitle={pageTitle}>
+    <main class="main">
+        <div class="main-title">
+            <h1 class="main-title-text">
+                <span>Summaries and Reviews</span>
+                <span>from Books I've Read</span>
+            </h1>
+        </div>
+
+        <div class="reading-description">
+            <p class="reading-text">
+                Most of the important things I’ve learned have come from books
+                and articles. After seeing
+                <a href="https://sivers.org/" class="reading-link"
+                    >Derek Sivers</a
+                >
+                publicize his book notes, I decided I would publicize all of my summaries
+                from books and articles I was reading.
+            </p>
+        </div>
+
+        <div class="books-list">
+            {
+                books.map((book) => (
+                    <article class="book-card">
+                        <div class="book-picture">
+                            <img
+                                src={book.cover}
+                                alt={`Cover of ${book.title}`}
+                                class="book-picture-size"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+
+                        <div class="book-info">
+                            <div class="book-name-block">
+                                <h2 class="book-name">{book.name}</h2>
+                            </div>
+
+                            <div class="date-reading">
+                                <p class="date-reading-text">
+                                    <span>Date read: </span>
+                                    <span class="book-value">{book.date}</span>
+                                </p>
+                                <p class="date-reading-text">
+                                    <span>How strongly I recommend it: </span>
+                                    <span class="book-value">
+                                        {book.rating}/10
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="book-review">
+                                <p>{book.review}</p>
+                            </div>
+                        </div>
+                    </article>
+                ))
+            }
+        </div>
+    </main>
+</Layout>

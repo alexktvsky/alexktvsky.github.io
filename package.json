@@ -1,0 +1,25 @@
+{
+    "name": "alexktvsky.github.io",
+    "type": "module",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=24.0.0"
+    },
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview"
+    },
+    "dependencies": {
+        "astro": "^6.0.2",
+        "@astrojs/preact": "^5.0.0",
+        "preact": "^10.19.6"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.30",
+        "eslint": "^9.0.0",
+        "eslint-plugin-import": "^2.29.0",
+        "prettier": "^3.2.5",
+        "prettier-plugin-astro": "^0.14.0"
+    }
+}

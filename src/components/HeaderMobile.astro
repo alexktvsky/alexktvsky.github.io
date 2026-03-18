@@ -1,0 +1,92 @@
+---
+import { normalizePath } from "../utils/url";
+import { links } from "./headerLinks";
+
+const currentPath = normalizePath(Astro.url.pathname);
+const siteOwnerName = "Alex Kotovsky";
+---
+
+<header class="header">
+    <div class="text-block">
+        <div class="picture-block">
+            <img
+                src="/cat.png"
+                alt={`${siteOwnerName} logo`}
+                class="picture-size"
+            />
+        </div>
+
+        <div class="name-block">
+            <span class="name-span">{siteOwnerName}</span>
+        </div>
+    </div>
+
+    <div class="navigation-block">
+        <nav class="navigation">
+            {
+                links.map((link) => {
+                    const isActive = normalizePath(link.url) === currentPath;
+
+                    return (
+                        <a
+                            href={link.url}
+                            class:list={["nav-link", { "is-active": isActive }]}
+                            style={`--link-color: ${link.linkColor};`}
+                            aria-current={isActive ? "page" : undefined}
+                        >
+                            {link.title}
+                        </a>
+                    );
+                })
+            }
+        </nav>
+    </div>
+</header>
+
+<style>
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        margin: auto 10px;
+    }
+    .text-block {
+        display: flex;
+        align-items: center;
+    }
+    .picture-block,
+    .picture-size {
+        width: 40px;
+        height: 40px;
+    }
+    .name-block {
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .name-span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .navigation-block {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .navigation {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 20px;
+        width: 100%;
+    }
+    .nav-link {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+    .nav-link:hover,
+    .nav-link.is-active {
+        border-bottom: 2px solid var(--link-color);
+    }
+</style>

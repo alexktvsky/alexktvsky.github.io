@@ -1,0 +1,32 @@
+---
+import DesktopHeader from "./HeaderDesktop.astro";
+import MobileHeader from "./HeaderMobile.astro";
+---
+
+<div class="header-mobile">
+    <MobileHeader />
+</div>
+
+<div class="header-desktop">
+    <DesktopHeader />
+</div>
+
+<style>
+    .header-mobile {
+        display: block;
+    }
+
+    .header-desktop {
+        display: none;
+    }
+
+    @media (min-width: 600px) {
+        .header-mobile {
+            display: none;
+        }
+
+        .header-desktop {
+            display: block;
+        }
+    }
+</style>

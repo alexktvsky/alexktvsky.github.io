@@ -1,0 +1,76 @@
+---
+import { links } from "../components/headerLinks";
+import rawProjects from "../data/projects.json";
+import Layout from "../layouts/Layout.astro";
+import "../styles/pages/projects.css";
+import { normalizePath } from "../utils/url";
+
+const currentPath = normalizePath(Astro.url.pathname);
+const currentPage = links.find((link) => link.url === currentPath);
+const pageTitle = currentPage?.title ?? "";
+
+const projects = rawProjects;
+---
+
+<Layout pageTitle={pageTitle}>
+    <main class="main">
+        <div class="main-title">
+            <h1 class="main-title-text">Projects</h1>
+        </div>
+
+        <div class="projects-list">
+            {
+                projects.map((project) => (
+                    <article class="project-card">
+                        <div class="card-settings">
+                            <div class="project-name-block">
+                                <span class="project-name">{project.name}</span>
+                                <span class="project-date">{project.year}</span>
+                            </div>
+
+                            <div class="description">
+                                <p class="description-text">
+                                    {project.description}
+                                </p>
+                            </div>
+
+                            <div class="button-block">
+                                {project.buttons.map((button) => (
+                                    <div class="button-template">
+                                        <a href={button.url} class="button">
+                                            <span class="button-text">
+                                                {button.name}
+                                            </span>
+
+                                            <span
+                                                class="link-icon"
+                                                aria-hidden="true"
+                                            >
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24 24"
+                                                >
+                                                    <g data-name="Layer 2">
+                                                        <g data-name="external-link">
+                                                            <rect
+                                                                width="24"
+                                                                height="24"
+                                                                opacity="0"
+                                                            />
+                                                            <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
+                                                            <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </article>
+                ))
+            }
+        </div>
+    </main>
+</Layout>
